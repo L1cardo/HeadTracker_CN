@@ -41,7 +41,6 @@ jobs:
           aqtversion: '==3.1.*'
           version: '6.4.1'
           modules: 'qtserialport'
-          setup-python: false
 
       - name: Generate Icons
         working-directory: ${{github.workspace}}
