@@ -1,0 +1,64 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../../settings"
+    },
+    {
+      "path": "../../web_configurator"
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "platformio.platformio-ide",
+      "ms-vscode.cpptools",
+      "xaver.clang-format",
+    ]
+  },
+  "settings": {
+    "editor.find.addExtraSpaceOnTop": false,
+    "files.trimTrailingWhitespace": true,
+    "workbench.colorCustomizations": {
+      "titleBar.activeBackground": "#020081",
+      "titleBar.activeForeground": "#ffffff"
+    },
+    "files.associations": {
+      "map": "cpp",
+      "format": "cpp",
+      "istream": "cpp",
+      "memory": "cpp",
+      "type_traits": "cpp",
+      "xlocmes": "cpp",
+      "xlocmon": "cpp",
+      "xlocnum": "cpp",
+      "xloctime": "cpp",
+      "functional": "cpp",
+      "log.h": "c",
+      "xstring": "cpp"
+    },
+  },
+  "launch": {
+    "configurations": [
+      {
+        "type": "chrome",
+        "name": "http://127.0.0.1:8080",
+        "request": "launch",
+        "url": "http://127.0.0.1:8080"
+      },
+      {
+        "type": "chrome",
+        "name": "http://127.0.0.1",
+        "request": "launch",
+        "url": "http://127.0.0.1"
+      },
+      {
+        "type": "chrome",
+        "name": "http://localhost:8080",
+        "request": "launch",
+        "url": "http://localhost:8080"
+      }
+    ]
+  }
+}
