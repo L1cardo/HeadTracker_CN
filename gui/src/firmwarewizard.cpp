@@ -202,6 +202,7 @@ void FirmwareWizard::loadOnlineFirmware()
         QNetworkRequest request(url);
         request.setAttribute(QNetworkRequest::CacheSaveControlAttribute,false);
         request.setAttribute(QNetworkRequest::CacheLoadControlAttribute,false);
+        request.setRawHeader("User-Agent", "Mozilla Firefox");
         firmreply = manager.get(request);
         connect(firmreply,SIGNAL(finished()),this,SLOT(firmwareVersionsReady()));
         connect(firmreply,SIGNAL(sslErrors(const QList<QSslError> &)),this, SLOT(ssLerrors(const QList<QSslError> &)));
@@ -271,9 +272,10 @@ void FirmwareWizard::parseFirmwareFile(QString ff)
         // Extract all the variant keys, make a new map and add them to mapData
         QMap<QString,QVariant> mapData;
         foreach(QString childkey, ini.childKeys()) {
+            QString orgiKey = childkey;
             if(childkey.toLower() == "filename")
                 childkey = "filename";
-            mapData[childkey] = ini.value(childkey);
+            mapData[childkey] = ini.value(orgiKey);
         }
         itm->setData(Qt::UserRole,mapData);
         ui->lstFirmwares->addItem(itm);
@@ -482,6 +484,8 @@ void FirmwareWizard::programClicked()
         QNetworkRequest request(url);
         request.setAttribute(QNetworkRequest::CacheSaveControlAttribute,false);
         request.setAttribute(QNetworkRequest::CacheLoadControlAttribute,false);
+        request.setRawHeader("User-Agent", "Mozilla Firefox");
+
         hexreply = manager.get(request);
         connect(hexreply,SIGNAL(finished()),this,SLOT(firmwareReady()));
         connect(hexreply,SIGNAL(sslErrors(const QList<QSslError> &)),this, SLOT(ssLerrors(const QList<QSslError> &)));
@@ -501,9 +505,9 @@ void FirmwareWizard::programmerSTDOUTReady()
     // Match one or more digits and a %
     QRegularExpressionMatch match = re.match(str);
     if (match.hasMatch()) {
-      QString strPcnt = match.captured(0);
-      strPcnt.chop(1);
-      ui->progressBar->setValue(strPcnt.toInt());
+        QString strPcnt = match.captured(0);
+        strPcnt.chop(1);
+        ui->progressBar->setValue(strPcnt.toInt());
     }
 
     addToLog(ba);
@@ -638,7 +642,7 @@ void FirmwareWizard::cmbSourceChanged(int index)
 {
     Q_UNUSED(index);
     bool local=false;
-    if(ui->cmbSource->currentText() == "Local File")
+    if(ui->cmbSource->currentText() == tr("Local File"))
         local = true;
 
     ui->cmdOpenFile->setVisible(local);
