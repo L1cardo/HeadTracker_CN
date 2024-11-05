@@ -94,6 +94,7 @@ public:
     _setting["an1ch"] = -1;
     _setting["an2ch"] = -1;
     _setting["an3ch"] = -1;
+    _setting["an4ch"] = -1;
     _setting["aux0ch"] = -1;
     _setting["aux1ch"] = -1;
     _setting["aux2ch"] = -1;
@@ -105,10 +106,12 @@ public:
     _setting["an1gain"] = 310;
     _setting["an2gain"] = 310;
     _setting["an3gain"] = 310;
+    _setting["an4gain"] = 310;
     _setting["an0off"] = 0;
     _setting["an1off"] = 0;
     _setting["an2off"] = 0;
     _setting["an3off"] = 0;
+    _setting["an4off"] = 0;
     _setting["servoreverse"] = 0;
     _setting["magxoff"] = 0;
     _setting["magyoff"] = 0;
@@ -207,6 +210,7 @@ public:
     descriptions["an1ch"] = tr("Analog 1 Channel");
     descriptions["an2ch"] = tr("Analog 2 Channel");
     descriptions["an3ch"] = tr("Analog 3 Channel");
+    descriptions["an4ch"] = tr("Analog 4 Channel");
     descriptions["aux0ch"] = tr("Auxilary Function 0 Channel");
     descriptions["aux1ch"] = tr("Auxilary Function 1 Channel");
     descriptions["aux2ch"] = tr("Auxilary Function 2 Channel");
@@ -218,10 +222,12 @@ public:
     descriptions["an1gain"] = tr("Analog 1 Gain");
     descriptions["an2gain"] = tr("Analog 2 Gain");
     descriptions["an3gain"] = tr("Analog 3 Gain");
+    descriptions["an4gain"] = tr("Analog 4 Gain");
     descriptions["an0off"] = tr("Analog 0 Offset");
     descriptions["an1off"] = tr("Analog 1 Offset");
     descriptions["an2off"] = tr("Analog 2 Offset");
     descriptions["an3off"] = tr("Analog 3 Offset");
+    descriptions["an4off"] = tr("Analog 4 Offset");
     descriptions["servoreverse"] = tr("Servo Reverse (BitMask)");
     descriptions["magxoff"] = tr("Magnetometer X Calibration Offset");
     descriptions["magyoff"] = tr("Magnetometer Y Calibration Offset");
@@ -605,6 +611,18 @@ public:
     return false;
   }
 
+  // Analog 4 Channel
+  int8_t getAn4Ch() {
+      return _setting["an4ch"].toInt();
+  }
+  bool setAn4Ch(int8_t val=-1) {
+      if(val >= -1 && val <= MAX_CHANNELS) {
+          _setting["an4ch"] = val;
+          return true;
+      }
+      return false;
+  }
+
   // Auxilary Function 0 Channel
   int8_t getAux0Ch() {
     return _setting["aux0ch"].toInt();
@@ -740,6 +758,18 @@ public:
     return false;
   }
 
+  // Analog 4 Gain
+  float getAn4Gain() {
+      return _setting["an4gain"].toFloat();
+  }
+  bool setAn4Gain(float val=310) {
+      if(val >= FLOAT_MIN && val <= FLOAT_MAX) {
+          _setting["an4gain"] = QString::number(val,'g',4);
+          return true;
+      }
+      return false;
+  }
+
 
   // Analog 0 Offset
   float getAn0Off() {
@@ -792,6 +822,17 @@ public:
     return false;
   }
 
+  // Analog 3 Offset
+  float getAn4Off() {
+      return _setting["an4off"].toFloat();
+  }
+  bool setAn4Off(float val=0) {
+      if(val >= FLOAT_MIN && val <= FLOAT_MAX) {
+          _setting["an4off"] = QString::number(val,'g',4);
+          return true;
+      }
+      return false;
+  }
 
   // Servo Reverse (BitMask)
   uint8_t getServoReverse() {
