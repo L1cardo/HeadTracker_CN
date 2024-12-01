@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>595</width>
+    <width>607</width>
     <height>774</height>
    </rect>
   </property>
@@ -397,6 +397,9 @@
           <property name="orientation">
            <enum>Qt::Orientation::Vertical</enum>
           </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Policy::MinimumExpanding</enum>
+          </property>
           <property name="sizeHint" stdset="0">
            <size>
             <width>20</width>
@@ -748,7 +751,7 @@
              <bool>false</bool>
             </property>
             <property name="currentIndex">
-             <number>1</number>
+             <number>5</number>
             </property>
             <widget class="QWidget" name="tabGeneral">
              <attribute name="title">
@@ -3151,13 +3154,13 @@
                  <widget class="QLabel" name="label_4">
                   <property name="minimumSize">
                    <size>
-                    <width>60</width>
+                    <width>70</width>
                     <height>20</height>
                    </size>
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>60</width>
+                    <width>70</width>
                     <height>20</height>
                    </size>
                   </property>
@@ -3170,7 +3173,7 @@
                  <widget class="QLabel" name="label_43">
                   <property name="minimumSize">
                    <size>
-                    <width>125</width>
+                    <width>0</width>
                     <height>20</height>
                    </size>
                   </property>
@@ -3192,7 +3195,7 @@
                  <widget class="QLabel" name="label_44">
                   <property name="minimumSize">
                    <size>
-                    <width>125</width>
+                    <width>0</width>
                     <height>20</height>
                    </size>
                   </property>
@@ -3269,20 +3272,20 @@
                    <item>
                     <widget class="QLabel" name="lblAn4">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
                      </property>
                      <property name="minimumSize">
                       <size>
-                       <width>60</width>
+                       <width>70</width>
                        <height>20</height>
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
-                       <width>60</width>
+                       <width>70</width>
                        <height>20</height>
                       </size>
                      </property>
@@ -3353,7 +3356,7 @@
                    <item>
                     <widget class="QComboBox" name="cmbA0Ch">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -3487,20 +3490,20 @@
                    <item>
                     <widget class="QLabel" name="lblAn5">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
                      </property>
                      <property name="minimumSize">
                       <size>
-                       <width>60</width>
+                       <width>70</width>
                        <height>20</height>
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
-                       <width>60</width>
+                       <width>70</width>
                        <height>20</height>
                       </size>
                      </property>
@@ -3571,7 +3574,7 @@
                    <item>
                     <widget class="QComboBox" name="cmbA1Ch">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -3705,20 +3708,20 @@
                    <item>
                     <widget class="QLabel" name="lblAn6">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
                      </property>
                      <property name="minimumSize">
                       <size>
-                       <width>60</width>
+                       <width>70</width>
                        <height>20</height>
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
-                       <width>60</width>
+                       <width>70</width>
                        <height>20</height>
                       </size>
                      </property>
@@ -3789,7 +3792,7 @@
                    <item>
                     <widget class="QComboBox" name="cmbA2Ch">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -3923,20 +3926,20 @@
                    <item>
                     <widget class="QLabel" name="lblAn7">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
                      </property>
                      <property name="minimumSize">
                       <size>
-                       <width>60</width>
+                       <width>70</width>
                        <height>20</height>
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
-                       <width>60</width>
+                       <width>70</width>
                        <height>20</height>
                       </size>
                      </property>
@@ -4007,7 +4010,7 @@
                    <item>
                     <widget class="QComboBox" name="cmbA3Ch">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -4141,20 +4144,20 @@
                    <item>
                     <widget class="QLabel" name="lblAn8">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
                      </property>
                      <property name="minimumSize">
                       <size>
-                       <width>60</width>
+                       <width>70</width>
                        <height>20</height>
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
-                       <width>60</width>
+                       <width>70</width>
                        <height>20</height>
                       </size>
                      </property>
@@ -4225,7 +4228,7 @@
                    <item>
                     <widget class="QComboBox" name="cmbA4Ch">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -4345,6 +4348,12 @@
                <layout class="QGridLayout" name="gridLayout_10">
                 <item row="0" column="1">
                  <widget class="QLabel" name="label_36">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
                   <property name="minimumSize">
                    <size>
                     <width>0</width>
@@ -4364,15 +4373,21 @@
                 </item>
                 <item row="0" column="2">
                  <widget class="QLabel" name="label_35">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
                   <property name="minimumSize">
                    <size>
-                    <width>0</width>
+                    <width>60</width>
                     <height>20</height>
                    </size>
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>16777215</width>
+                    <width>60</width>
                     <height>20</height>
                    </size>
                   </property>
@@ -4383,9 +4398,15 @@
                 </item>
                 <item row="1" column="0">
                  <widget class="QLabel" name="label_33">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
                   <property name="minimumSize">
                    <size>
-                    <width>0</width>
+                    <width>70</width>
                     <height>20</height>
                    </size>
                   </property>
@@ -4402,6 +4423,12 @@
                 </item>
                 <item row="1" column="1">
                  <widget class="QComboBox" name="cmbAuxFn0">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
                   <property name="minimumSize">
                    <size>
                     <width>0</width>
@@ -4458,15 +4485,21 @@
                 </item>
                 <item row="1" column="2">
                  <widget class="QComboBox" name="cmbAuxFn0Ch">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
                   <property name="minimumSize">
                    <size>
-                    <width>0</width>
+                    <width>60</width>
                     <height>20</height>
                    </size>
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>16777215</width>
+                    <width>60</width>
                     <height>20</height>
                    </size>
                   </property>
@@ -4559,9 +4592,15 @@
                 </item>
                 <item row="2" column="0">
                  <widget class="QLabel" name="label_34">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
                   <property name="minimumSize">
                    <size>
-                    <width>0</width>
+                    <width>70</width>
                     <height>20</height>
                    </size>
                   </property>
@@ -4578,6 +4617,12 @@
                 </item>
                 <item row="2" column="1">
                  <widget class="QComboBox" name="cmbAuxFn1">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
                   <property name="minimumSize">
                    <size>
                     <width>0</width>
@@ -4634,15 +4679,21 @@
                 </item>
                 <item row="2" column="2">
                  <widget class="QComboBox" name="cmbAuxFn1Ch">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
                   <property name="minimumSize">
                    <size>
-                    <width>0</width>
+                    <width>60</width>
                     <height>20</height>
                    </size>
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>16777215</width>
+                    <width>60</width>
                     <height>20</height>
                    </size>
                   </property>
@@ -4735,9 +4786,15 @@
                 </item>
                 <item row="3" column="0">
                  <widget class="QLabel" name="label_22">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
                   <property name="minimumSize">
                    <size>
-                    <width>0</width>
+                    <width>70</width>
                     <height>20</height>
                    </size>
                   </property>
@@ -4754,6 +4811,12 @@
                 </item>
                 <item row="3" column="1">
                  <widget class="QComboBox" name="cmbAuxFn2">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
                   <property name="minimumSize">
                    <size>
                     <width>0</width>
@@ -4810,15 +4873,21 @@
                 </item>
                 <item row="3" column="2">
                  <widget class="QComboBox" name="cmbAuxFn2Ch">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
                   <property name="minimumSize">
                    <size>
-                    <width>0</width>
+                    <width>60</width>
                     <height>20</height>
                    </size>
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>16777215</width>
+                    <width>60</width>
                     <height>20</height>
                    </size>
                   </property>
@@ -6110,7 +6179,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>595</width>
+     <width>607</width>
      <height>19</height>
     </rect>
    </property>
