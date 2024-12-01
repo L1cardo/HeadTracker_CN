@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>587</width>
+    <width>595</width>
     <height>708</height>
    </rect>
   </property>
@@ -123,6 +123,12 @@
         </item>
         <item row="9" column="0" colspan="2">
          <widget class="QPushButton" name="cmdResetCenter">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="minimumSize">
            <size>
             <width>130</width>
@@ -155,6 +161,12 @@
         </item>
         <item row="5" column="0" colspan="2">
          <widget class="QPushButton" name="cmdSaveNVM">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="minimumSize">
            <size>
             <width>130</width>
@@ -188,7 +200,7 @@
         <item row="1" column="0">
          <widget class="QComboBox" name="cmbPort">
           <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
@@ -212,6 +224,12 @@
         </item>
         <item row="4" column="0" colspan="2">
          <widget class="QPushButton" name="cmdReboot">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="minimumSize">
            <size>
             <width>130</width>
@@ -244,6 +262,12 @@
         </item>
         <item row="6" column="0" colspan="2">
          <widget class="QPushButton" name="cmdCalibrate">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="minimumSize">
            <size>
             <width>130</width>
@@ -276,6 +300,12 @@
         </item>
         <item row="8" column="0" colspan="2">
          <widget class="QPushButton" name="cmdChannelViewer">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="minimumSize">
            <size>
             <width>130</width>
@@ -308,6 +338,12 @@
         </item>
         <item row="1" column="1">
          <widget class="QPushButton" name="cmdRefresh">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="minimumSize">
            <size>
             <width>30</width>
@@ -348,7 +384,7 @@
         <item row="2" column="0" rowspan="2" colspan="2">
          <widget class="QPushButton" name="cmdConnect">
           <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
@@ -391,7 +427,7 @@
          </size>
         </property>
         <property name="currentIndex">
-         <number>2</number>
+         <number>3</number>
         </property>
         <widget class="QWidget" name="page">
          <property name="minimumSize">
@@ -676,7 +712,7 @@
              <bool>false</bool>
             </property>
             <property name="currentIndex">
-             <number>5</number>
+             <number>2</number>
             </property>
             <widget class="QWidget" name="tabGeneral">
              <attribute name="title">
@@ -3185,7 +3221,7 @@
                    <item>
                     <widget class="QLabel" name="lblAn4">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -3209,6 +3245,12 @@
                    </item>
                    <item>
                     <widget class="QDoubleSpinBox" name="spnA0Gain">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
@@ -3234,6 +3276,12 @@
                    </item>
                    <item>
                     <widget class="QSpinBox" name="spnA0Off">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
@@ -3257,7 +3305,7 @@
                    <item>
                     <widget class="QComboBox" name="cmbA0Ch">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -3391,7 +3439,7 @@
                    <item>
                     <widget class="QLabel" name="lblAn5">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -3415,6 +3463,12 @@
                    </item>
                    <item>
                     <widget class="QDoubleSpinBox" name="spnA1Gain">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
@@ -3440,6 +3494,12 @@
                    </item>
                    <item>
                     <widget class="QSpinBox" name="spnA1Off">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
@@ -3463,7 +3523,7 @@
                    <item>
                     <widget class="QComboBox" name="cmbA1Ch">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -3597,7 +3657,7 @@
                    <item>
                     <widget class="QLabel" name="lblAn6">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -3621,6 +3681,12 @@
                    </item>
                    <item>
                     <widget class="QDoubleSpinBox" name="spnA2Gain">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
@@ -3646,6 +3712,12 @@
                    </item>
                    <item>
                     <widget class="QSpinBox" name="spnA2Off">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
@@ -3669,7 +3741,7 @@
                    <item>
                     <widget class="QComboBox" name="cmbA2Ch">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -3803,7 +3875,7 @@
                    <item>
                     <widget class="QLabel" name="lblAn7">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -3827,6 +3899,12 @@
                    </item>
                    <item>
                     <widget class="QDoubleSpinBox" name="spnA3Gain">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
@@ -3852,6 +3930,12 @@
                    </item>
                    <item>
                     <widget class="QSpinBox" name="spnA3Off">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
@@ -3875,7 +3959,7 @@
                    <item>
                     <widget class="QComboBox" name="cmbA3Ch">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -4009,7 +4093,7 @@
                    <item>
                     <widget class="QLabel" name="lblAn8">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -4033,6 +4117,12 @@
                    </item>
                    <item>
                     <widget class="QDoubleSpinBox" name="spnA4Gain">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
@@ -4058,6 +4148,12 @@
                    </item>
                    <item>
                     <widget class="QSpinBox" name="spnA4Off">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
@@ -4081,7 +4177,7 @@
                    <item>
                     <widget class="QComboBox" name="cmbA4Ch">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                      <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -4863,7 +4959,7 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>150</width>
+           <width>140</width>
            <height>30</height>
           </size>
          </property>
@@ -5121,7 +5217,7 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>150</width>
+           <width>140</width>
            <height>30</height>
           </size>
          </property>
@@ -5146,7 +5242,7 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>220</width>
+           <width>140</width>
            <height>20</height>
           </size>
          </property>
@@ -5174,18 +5270,21 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>20</width>
+           <width>50</width>
            <height>20</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>20</width>
+           <width>50</width>
            <height>20</height>
           </size>
          </property>
          <property name="text">
           <string>Tilt</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
          </property>
         </widget>
        </item>
@@ -5199,18 +5298,21 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>20</width>
+           <width>50</width>
            <height>20</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>20</width>
+           <width>50</width>
            <height>20</height>
           </size>
          </property>
          <property name="text">
           <string>Roll</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
          </property>
         </widget>
        </item>
@@ -5263,18 +5365,21 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>20</width>
+           <width>50</width>
            <height>20</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>20</width>
+           <width>50</width>
            <height>20</height>
           </size>
          </property>
          <property name="text">
           <string>Pan</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
          </property>
         </widget>
        </item>
@@ -5319,7 +5424,7 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>150</width>
+           <width>140</width>
            <height>0</height>
           </size>
          </property>
@@ -5503,7 +5608,7 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>150</width>
+           <width>140</width>
            <height>30</height>
           </size>
          </property>
@@ -5528,7 +5633,7 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>150</width>
+           <width>140</width>
            <height>0</height>
           </size>
          </property>
@@ -5672,7 +5777,7 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>150</width>
+           <width>140</width>
            <height>0</height>
           </size>
          </property>
@@ -5752,7 +5857,7 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>150</width>
+           <width>140</width>
            <height>20</height>
           </size>
          </property>
@@ -5811,6 +5916,9 @@
         <layout class="QVBoxLayout" name="SideBarVerticalLayout">
          <item>
           <widget class="QPushButton" name="cmdStartGraph">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
            <property name="minimumSize">
             <size>
              <width>100</width>
@@ -5900,7 +6008,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>587</width>
+     <width>595</width>
      <height>20</height>
     </rect>
    </property>
