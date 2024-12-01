@@ -105,6 +105,12 @@
         </item>
         <item row="9" column="0" colspan="2">
          <widget class="QPushButton" name="cmdResetCenter">
+          <property name="maximumSize">
+           <size>
+            <width>130</width>
+            <height>27</height>
+           </size>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Performs same function as the physical Reset Button. Used for testing purposes&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -125,6 +131,12 @@
         </item>
         <item row="5" column="0" colspan="2">
          <widget class="QPushButton" name="cmdSaveNVM">
+          <property name="maximumSize">
+           <size>
+            <width>130</width>
+            <height>27</height>
+           </size>
+          </property>
           <property name="toolTip">
            <string>Permanently save the settings on the headtracker</string>
           </property>
@@ -157,6 +169,12 @@
             <height>0</height>
            </size>
           </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>19</height>
+           </size>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Discoverd com port list&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -164,6 +182,12 @@
         </item>
         <item row="4" column="0" colspan="2">
          <widget class="QPushButton" name="cmdReboot">
+          <property name="maximumSize">
+           <size>
+            <width>130</width>
+            <height>27</height>
+           </size>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Reboot the board&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -184,6 +208,12 @@
         </item>
         <item row="6" column="0" colspan="2">
          <widget class="QPushButton" name="cmdCalibrate">
+          <property name="maximumSize">
+           <size>
+            <width>130</width>
+            <height>27</height>
+           </size>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This will calibrate the onboard sensors.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -204,6 +234,12 @@
         </item>
         <item row="8" column="0" colspan="2">
          <widget class="QPushButton" name="cmdChannelViewer">
+          <property name="maximumSize">
+           <size>
+            <width>130</width>
+            <height>27</height>
+           </size>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This will show you the actual channel outputs and inputs from PPM / SBUS and Bluetooth&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -224,6 +260,12 @@
         </item>
         <item row="1" column="1">
          <widget class="QPushButton" name="cmdRefresh">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>21</height>
+           </size>
+          </property>
           <property name="toolTip">
            <string>Refresh Available Serial Ports</string>
           </property>
@@ -233,29 +275,6 @@
           <property name="icon">
            <iconset resource="Resources.qrc">
             <normaloff>:/Icons/images/refresh.svg</normaloff>:/Icons/images/refresh.svg</iconset>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0" colspan="2">
-         <widget class="QPushButton" name="cmdConnect">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="text">
-           <string> &amp;Connect</string>
-          </property>
-          <property name="icon">
-           <iconset resource="Resources.qrc">
-            <normaloff>:/Icons/images/connect.svg</normaloff>:/Icons/images/connect.svg</iconset>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>20</width>
-            <height>20</height>
-           </size>
           </property>
          </widget>
         </item>
@@ -272,14 +291,55 @@
           </property>
          </spacer>
         </item>
+        <item row="2" column="0" rowspan="2" colspan="2">
+         <widget class="QPushButton" name="cmdConnect">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>130</width>
+            <height>27</height>
+           </size>
+          </property>
+          <property name="text">
+           <string> &amp;Connect</string>
+          </property>
+          <property name="icon">
+           <iconset resource="Resources.qrc">
+            <normaloff>:/Icons/images/connect.svg</normaloff>:/Icons/images/connect.svg</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>20</width>
+            <height>20</height>
+           </size>
+          </property>
+         </widget>
+        </item>
        </layout>
       </item>
       <item>
        <widget class="QStackedWidget" name="stackedWidget">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>340</height>
+         </size>
+        </property>
         <property name="currentIndex">
-         <number>3</number>
+         <number>0</number>
         </property>
         <widget class="QWidget" name="page">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>340</height>
+          </size>
+         </property>
          <layout class="QVBoxLayout" name="verticalLayout_3">
           <item>
            <widget class="QLabel" name="label_13">
@@ -306,6 +366,12 @@
          </layout>
         </widget>
         <widget class="QWidget" name="Connecting">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>340</height>
+          </size>
+         </property>
          <layout class="QHBoxLayout" name="horizontalLayout_3">
           <item>
            <widget class="QLabel" name="label_23">
@@ -320,6 +386,12 @@
          </layout>
         </widget>
         <widget class="QWidget" name="BNO055">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>340</height>
+          </size>
+         </property>
          <layout class="QGridLayout" name="gridLayout_6">
           <item row="1" column="0">
            <widget class="QLabel" name="label_8">
@@ -440,6 +512,12 @@
          </layout>
         </widget>
         <widget class="QWidget" name="NANO33BLE">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>340</height>
+          </size>
+         </property>
          <layout class="QVBoxLayout" name="verticalLayout_2">
           <item>
            <widget class="QTabWidget" name="tabBLE">
@@ -453,7 +531,7 @@
              <bool>false</bool>
             </property>
             <property name="currentIndex">
-             <number>5</number>
+             <number>0</number>
             </property>
             <widget class="QWidget" name="tabGeneral">
              <attribute name="title">
@@ -3408,6 +3486,12 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>185</height>
+       </size>
+      </property>
       <property name="title">
        <string>IMU Output - Local Board</string>
       </property>
@@ -4220,6 +4304,12 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>120</height>
+       </size>
+      </property>
       <property name="title">
        <string>Graph - Local Board</string>
       </property>
@@ -4231,12 +4321,6 @@
            <horstretch>0</horstretch>
            <verstretch>7</verstretch>
           </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>80</height>
-          </size>
          </property>
         </widget>
        </item>
