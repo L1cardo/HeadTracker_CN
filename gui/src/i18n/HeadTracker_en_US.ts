@@ -4,198 +4,213 @@
 <context>
     <name>BaseTrackerSettings</name>
     <message>
-        <location filename="../basetrackersettings.h" line="192"/>
+        <location filename="../basetrackersettings.h" line="189"/>
         <source>Roll Minimum</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="193"/>
+        <location filename="../basetrackersettings.h" line="190"/>
         <source>Roll Maximum</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="194"/>
+        <location filename="../basetrackersettings.h" line="191"/>
         <source>Roll Center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="195"/>
+        <location filename="../basetrackersettings.h" line="192"/>
         <source>Roll Gain</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="196"/>
+        <location filename="../basetrackersettings.h" line="193"/>
         <source>Tilt Minimum</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="197"/>
+        <location filename="../basetrackersettings.h" line="194"/>
         <source>Tilt Maximum</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="198"/>
+        <location filename="../basetrackersettings.h" line="195"/>
         <source>Tilt Center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="199"/>
+        <location filename="../basetrackersettings.h" line="196"/>
         <source>Tilt Gain</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="200"/>
+        <location filename="../basetrackersettings.h" line="197"/>
         <source>Pan Minimum</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="201"/>
+        <location filename="../basetrackersettings.h" line="198"/>
         <source>Pan Maximum</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="202"/>
+        <location filename="../basetrackersettings.h" line="199"/>
         <source>Pan Center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="203"/>
+        <location filename="../basetrackersettings.h" line="200"/>
         <source>Pan Gain</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="204"/>
+        <location filename="../basetrackersettings.h" line="201"/>
         <source>Tilt Output Channel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="205"/>
+        <location filename="../basetrackersettings.h" line="202"/>
         <source>Roll Output Channel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="206"/>
+        <location filename="../basetrackersettings.h" line="203"/>
         <source>Pan Output Channel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="207"/>
+        <location filename="../basetrackersettings.h" line="204"/>
         <source>Alert Output Channel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="208"/>
+        <location filename="../basetrackersettings.h" line="205"/>
         <source>PWM 0 Channel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="209"/>
+        <location filename="../basetrackersettings.h" line="206"/>
         <source>PWM 1 Channel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="210"/>
+        <location filename="../basetrackersettings.h" line="207"/>
         <source>PWM 2 Channel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="211"/>
+        <location filename="../basetrackersettings.h" line="208"/>
         <source>PWM 3 Channel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="212"/>
+        <location filename="../basetrackersettings.h" line="209"/>
         <source>Analog 0 Channel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="213"/>
+        <location filename="../basetrackersettings.h" line="210"/>
         <source>Analog 1 Channel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="214"/>
+        <location filename="../basetrackersettings.h" line="211"/>
         <source>Analog 2 Channel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="215"/>
+        <location filename="../basetrackersettings.h" line="212"/>
         <source>Analog 3 Channel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="216"/>
+        <location filename="../basetrackersettings.h" line="213"/>
+        <source>Analog 4 Channel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basetrackersettings.h" line="214"/>
         <source>Auxilary Function 0 Channel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="217"/>
+        <location filename="../basetrackersettings.h" line="215"/>
         <source>Auxilary Function 1 Channel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="218"/>
+        <location filename="../basetrackersettings.h" line="216"/>
         <source>Auxilary Function 2 Channel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="219"/>
+        <location filename="../basetrackersettings.h" line="217"/>
         <source>Reset Center on PPM Input Channel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="220"/>
+        <location filename="../basetrackersettings.h" line="218"/>
         <source>Auxilary Function 0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="221"/>
+        <location filename="../basetrackersettings.h" line="219"/>
         <source>Auxilary Function 1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="222"/>
+        <location filename="../basetrackersettings.h" line="220"/>
         <source>Auxilary Function 2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="223"/>
+        <location filename="../basetrackersettings.h" line="221"/>
         <source>Analog 0 Gain</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="224"/>
+        <location filename="../basetrackersettings.h" line="222"/>
         <source>Analog 1 Gain</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="225"/>
+        <location filename="../basetrackersettings.h" line="223"/>
         <source>Analog 2 Gain</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="226"/>
+        <location filename="../basetrackersettings.h" line="224"/>
         <source>Analog 3 Gain</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="227"/>
+        <location filename="../basetrackersettings.h" line="225"/>
+        <source>Analog 4 Gain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basetrackersettings.h" line="226"/>
         <source>Analog 0 Offset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="228"/>
+        <location filename="../basetrackersettings.h" line="227"/>
         <source>Analog 1 Offset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="229"/>
+        <location filename="../basetrackersettings.h" line="228"/>
         <source>Analog 2 Offset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basetrackersettings.h" line="230"/>
+        <location filename="../basetrackersettings.h" line="229"/>
         <source>Analog 3 Offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basetrackersettings.h" line="230"/>
+        <source>Analog 4 Offset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -606,6 +621,19 @@
     </message>
 </context>
 <context>
+    <name>BoardBNO055</name>
+    <message>
+        <location filename="../boardbno055.cpp" line="212"/>
+        <source>Settings Received</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../boardbno055.cpp" line="214"/>
+        <source>Error wrong # params</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>CalAccelerometer</name>
     <message>
         <location filename="../calibratewizard/calaccelerometer.ui" line="26"/>
@@ -778,7 +806,6 @@
     <message>
         <location filename="../calibrateble.ui" line="712"/>
         <location filename="../calibrateble.cpp" line="145"/>
-        <location filename="../calibrateble.cpp" line="155"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
@@ -801,6 +828,54 @@
     <message>
         <location filename="../calibrateble.cpp" line="152"/>
         <source>Save</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>CalibrateBNO</name>
+    <message>
+        <location filename="../calibratebno.ui" line="14"/>
+        <source>Calibration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../calibratebno.ui" line="28"/>
+        <source>Gyrometer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../calibratebno.ui" line="115"/>
+        <source>Leave Stable in an orientation to calibrate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../calibratebno.ui" line="131"/>
+        <source>Accelerometer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../calibratebno.ui" line="158"/>
+        <source>Rotate headset in 90deg increments, stopping and holding steady for 2 sec. After 360 rotate 90 in any other direction and hold.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../calibratebno.ui" line="234"/>
+        <source>Magnetometer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../calibratebno.ui" line="321"/>
+        <source>Spin tracker in a 360 to calibrate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../calibratebno.ui" line="337"/>
+        <source>System Status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../calibratebno.ui" line="418"/>
+        <source>Quality of output. A value above zero is all that is required.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -840,22 +915,22 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../channelviewer.cpp" line="23"/>
+        <location filename="../channelviewer.cpp" line="24"/>
         <source>Channel Viewer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../channelviewer.cpp" line="221"/>
+        <location filename="../channelviewer.cpp" line="225"/>
         <source>No PPM Input channels detected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../channelviewer.cpp" line="240"/>
+        <location filename="../channelviewer.cpp" line="244"/>
         <source>No UART (Sbus/Crsf) input channels detected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../channelviewer.cpp" line="259"/>
+        <location filename="../channelviewer.cpp" line="263"/>
         <source>No BT Input channels detected</source>
         <translation type="unfinished"></translation>
     </message>
@@ -863,17 +938,17 @@
 <context>
     <name>DataModel</name>
     <message>
-        <location filename="../diagnosticdisplay.cpp" line="194"/>
+        <location filename="../diagnosticdisplay.cpp" line="170"/>
         <source>Item</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../diagnosticdisplay.cpp" line="196"/>
+        <location filename="../diagnosticdisplay.cpp" line="172"/>
         <source>Value</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../diagnosticdisplay.cpp" line="198"/>
+        <location filename="../diagnosticdisplay.cpp" line="174"/>
         <source>Description</source>
         <translation type="unfinished"></translation>
     </message>
@@ -891,32 +966,22 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../diagnosticdisplay.ui" line="41"/>
+        <location filename="../diagnosticdisplay.ui" line="34"/>
         <source>Live Data</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../diagnosticdisplay.ui" line="50"/>
+        <location filename="../diagnosticdisplay.ui" line="43"/>
         <source>Selecting too many items will slow down the GUI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../diagnosticdisplay.ui" line="58"/>
-        <source>Features</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../diagnosticdisplay.ui" line="68"/>
-        <source>Pinout</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../diagnosticdisplay.ui" line="96"/>
+        <location filename="../diagnosticdisplay.ui" line="69"/>
         <source>Close</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../diagnosticdisplay.cpp" line="51"/>
+        <location filename="../diagnosticdisplay.cpp" line="52"/>
         <source>Description</source>
         <translation type="unfinished"></translation>
     </message>
@@ -930,6 +995,7 @@
     </message>
     <message>
         <location filename="../firmwarewizard.cpp" line="69"/>
+        <location filename="../firmwarewizard.cpp" line="645"/>
         <source>Local File</source>
         <translation type="unfinished"></translation>
     </message>
@@ -951,9 +1017,9 @@
     <message>
         <location filename="../firmwarewizard.cpp" line="116"/>
         <location filename="../firmwarewizard.cpp" line="168"/>
-        <location filename="../firmwarewizard.cpp" line="359"/>
-        <location filename="../firmwarewizard.cpp" line="381"/>
-        <location filename="../firmwarewizard.cpp" line="536"/>
+        <location filename="../firmwarewizard.cpp" line="360"/>
+        <location filename="../firmwarewizard.cpp" line="382"/>
+        <location filename="../firmwarewizard.cpp" line="537"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
@@ -969,17 +1035,17 @@
     </message>
     <message>
         <location filename="../firmwarewizard.cpp" line="132"/>
-        <source>  Firmware is for the Arduino Nano BLE 33 in bin format</source>
+        <source>Firmware is for the Arduino Nano BLE 33 in bin format</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../firmwarewizard.cpp" line="143"/>
-        <source>  Firmware is for the Arduino Nano BLE 33 in hex format</source>
+        <source>Firmware is for the Arduino Nano BLE 33 in hex format</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../firmwarewizard.cpp" line="155"/>
-        <source>  Firmware is for the Arduino Nano in intel hex format</source>
+        <source>Firmware is for the Arduino Nano in intel hex format</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -989,122 +1055,122 @@
     </message>
     <message>
         <location filename="../firmwarewizard.cpp" line="177"/>
-        <location filename="../firmwarewizard.cpp" line="181"/>
+        <location filename="../firmwarewizard.cpp" line="182"/>
         <source>Starting: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="239"/>
+        <location filename="../firmwarewizard.cpp" line="240"/>
         <source>Using firmware from local file </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="244"/>
+        <location filename="../firmwarewizard.cpp" line="245"/>
         <source>Downloaded firmware from the internet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="305"/>
+        <location filename="../firmwarewizard.cpp" line="306"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="306"/>
+        <location filename="../firmwarewizard.cpp" line="307"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&apos;center&apos;&gt;&lt;span style=&apos; font-size:18pt;&apos;&gt;Connect your board&lt;/span&gt;&lt;span style=&apos; font-size:14pt;&apos;&gt;&lt;br/&gt;&lt;/span&gt;If already connected, disconnect and reconnect&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="343"/>
+        <location filename="../firmwarewizard.cpp" line="344"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&apos;center&apos;&gt;&lt;span style=&apos; font-size:18pt;&apos;&gt;Programming Successful&lt;/span&gt;&lt;span style=&apos; font-size:14pt;&apos;&gt;&lt;br/&gt;&lt;/span&gt;You may close this window&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="345"/>
+        <location filename="../firmwarewizard.cpp" line="346"/>
         <source>Close</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="359"/>
+        <location filename="../firmwarewizard.cpp" line="360"/>
         <source>Unable to set bootloader, could not open port </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="359"/>
+        <location filename="../firmwarewizard.cpp" line="360"/>
         <source> at 1200baud</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="360"/>
+        <location filename="../firmwarewizard.cpp" line="361"/>
         <source>Unable to set bootloader - </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="388"/>
+        <location filename="../firmwarewizard.cpp" line="389"/>
         <source>Fetching Firmwares Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="398"/>
+        <location filename="../firmwarewizard.cpp" line="399"/>
         <source>Fetching Binary Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="462"/>
+        <location filename="../firmwarewizard.cpp" line="463"/>
         <source>Loading local file </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="492"/>
+        <location filename="../firmwarewizard.cpp" line="493"/>
         <source>Downloading </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="529"/>
+        <location filename="../firmwarewizard.cpp" line="530"/>
         <source>Starting </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="536"/>
+        <location filename="../firmwarewizard.cpp" line="537"/>
         <source>Unable to open </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="541"/>
+        <location filename="../firmwarewizard.cpp" line="542"/>
         <source>Programmer Error </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="557"/>
+        <location filename="../firmwarewizard.cpp" line="558"/>
         <source>Programming Failure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="557"/>
+        <location filename="../firmwarewizard.cpp" line="558"/>
         <source>Programming Failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="558"/>
+        <location filename="../firmwarewizard.cpp" line="559"/>
         <source>Programmer Exit Error(%1) %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="574"/>
+        <location filename="../firmwarewizard.cpp" line="575"/>
         <source>Wasn&apos;t able to set bootloader mode, trying first port found</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="576"/>
+        <location filename="../firmwarewizard.cpp" line="577"/>
         <source>Couldn&apos;t enter bootloader, trying original port</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="629"/>
+        <location filename="../firmwarewizard.cpp" line="630"/>
         <source>Discovered a new port </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwarewizard.cpp" line="675"/>
+        <location filename="../firmwarewizard.cpp" line="676"/>
         <source>
 Killed programmer process!
 </source>
@@ -1222,1221 +1288,1377 @@ Killed programmer process!
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="37"/>
+        <location filename="../mainwindow.ui" line="49"/>
         <source>Rx</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="44"/>
+        <location filename="../mainwindow.ui" line="71"/>
         <source>Tx</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="97"/>
+        <location filename="../mainwindow.ui" line="145"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Performs same function as the physical Reset Button. Used for testing purposes&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="100"/>
+        <location filename="../mainwindow.ui" line="148"/>
         <source> &amp;Reset Center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="117"/>
+        <location filename="../mainwindow.ui" line="183"/>
         <source>Permanently save the settings on the headtracker</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="120"/>
+        <location filename="../mainwindow.ui" line="186"/>
         <source> Save Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="149"/>
+        <location filename="../mainwindow.ui" line="221"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Discoverd com port list&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="156"/>
+        <location filename="../mainwindow.ui" line="246"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Reboot the board&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="159"/>
+        <location filename="../mainwindow.ui" line="249"/>
         <source> Reboot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="176"/>
+        <location filename="../mainwindow.ui" line="284"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This will calibrate the onboard sensors.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="179"/>
+        <location filename="../mainwindow.ui" line="287"/>
         <source> Calibrate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="196"/>
+        <location filename="../mainwindow.ui" line="322"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This will show you the actual channel outputs and inputs from PPM / SBUS and Bluetooth&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="199"/>
+        <location filename="../mainwindow.ui" line="325"/>
         <source> Channel &amp;Viewer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="216"/>
+        <location filename="../mainwindow.ui" line="360"/>
         <source>Refresh Available Serial Ports</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="236"/>
+        <location filename="../mainwindow.ui" line="405"/>
         <source> &amp;Connect</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="296"/>
+        <location filename="../mainwindow.ui" line="455"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Welcome&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; text-decoration: underline;&quot;&gt;&lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;How to get started&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; text-decoration: underline;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;1) Upload firmware to your board under Firmware on the menu bar&lt;br/&gt;2) Connect your board via USB cable&lt;br/&gt;3) Select your port from the drop down list. Use the refresh icon to reload the list&lt;br/&gt;4) Choose Connect to begin configuring&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Please look under &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Help&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; above for additional support,&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Online Help&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; - Explains the pages in this GUI&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;GitHub&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; - Open source code. Search and Report issues here.&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Discord Chat - &lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Live chat support, or just to show off you builds!&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Donate - &lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;If you would like to contribute to the project&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="316"/>
+        <location filename="../mainwindow.ui" line="481"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Connecting... &lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Please wait for the board to boot.&lt;/span&gt;&lt;br/&gt;Check Serial Information under diagnostics for more information&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="343"/>
+        <location filename="../mainwindow.ui" line="731"/>
         <source>General</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="355"/>
-        <source>Center Button Pin</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="368"/>
-        <source>NO CENTER BUTTON DEFINED</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="381"/>
+        <location filename="../mainwindow.ui" line="804"/>
         <source>Send Recenter on Chan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="388"/>
+        <location filename="../mainwindow.ui" line="1009"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When center is pressed this will pulse this channel. Used to notify your radio when centered.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="392"/>
-        <location filename="../mainwindow.ui" line="1985"/>
-        <location filename="../mainwindow.ui" line="2143"/>
-        <location filename="../mainwindow.ui" line="2301"/>
-        <location filename="../mainwindow.ui" line="2459"/>
-        <location filename="../mainwindow.ui" line="2627"/>
-        <location filename="../mainwindow.ui" line="2767"/>
-        <location filename="../mainwindow.ui" line="2907"/>
-        <location filename="../mainwindow.ui" line="3097"/>
-        <location filename="../mainwindow.ui" line="3202"/>
-        <location filename="../mainwindow.ui" line="3478"/>
+        <location filename="../mainwindow.ui" line="1013"/>
+        <location filename="../mainwindow.ui" line="3351"/>
+        <location filename="../mainwindow.ui" line="3569"/>
+        <location filename="../mainwindow.ui" line="3787"/>
+        <location filename="../mainwindow.ui" line="4005"/>
+        <location filename="../mainwindow.ui" line="4223"/>
+        <location filename="../mainwindow.ui" line="4451"/>
+        <location filename="../mainwindow.ui" line="4627"/>
+        <location filename="../mainwindow.ui" line="4803"/>
+        <location filename="../mainwindow.ui" line="5020"/>
+        <location filename="../mainwindow.ui" line="5149"/>
+        <location filename="../mainwindow.ui" line="5503"/>
         <source>Off</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="397"/>
-        <location filename="../mainwindow.ui" line="769"/>
-        <location filename="../mainwindow.ui" line="776"/>
-        <location filename="../mainwindow.ui" line="1990"/>
-        <location filename="../mainwindow.ui" line="2148"/>
-        <location filename="../mainwindow.ui" line="2306"/>
-        <location filename="../mainwindow.ui" line="2464"/>
-        <location filename="../mainwindow.ui" line="2632"/>
-        <location filename="../mainwindow.ui" line="2772"/>
-        <location filename="../mainwindow.ui" line="2912"/>
-        <location filename="../mainwindow.ui" line="3102"/>
-        <location filename="../mainwindow.ui" line="3207"/>
-        <location filename="../mainwindow.ui" line="3483"/>
+        <location filename="../mainwindow.ui" line="1018"/>
+        <location filename="../mainwindow.ui" line="1331"/>
+        <location filename="../mainwindow.ui" line="1338"/>
+        <location filename="../mainwindow.ui" line="3356"/>
+        <location filename="../mainwindow.ui" line="3574"/>
+        <location filename="../mainwindow.ui" line="3792"/>
+        <location filename="../mainwindow.ui" line="4010"/>
+        <location filename="../mainwindow.ui" line="4228"/>
+        <location filename="../mainwindow.ui" line="4456"/>
+        <location filename="../mainwindow.ui" line="4632"/>
+        <location filename="../mainwindow.ui" line="4808"/>
+        <location filename="../mainwindow.ui" line="5025"/>
+        <location filename="../mainwindow.ui" line="5154"/>
+        <location filename="../mainwindow.ui" line="5508"/>
         <source>1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="402"/>
-        <location filename="../mainwindow.ui" line="781"/>
-        <location filename="../mainwindow.ui" line="1995"/>
-        <location filename="../mainwindow.ui" line="2153"/>
-        <location filename="../mainwindow.ui" line="2311"/>
-        <location filename="../mainwindow.ui" line="2469"/>
-        <location filename="../mainwindow.ui" line="2637"/>
-        <location filename="../mainwindow.ui" line="2777"/>
-        <location filename="../mainwindow.ui" line="2917"/>
-        <location filename="../mainwindow.ui" line="3107"/>
-        <location filename="../mainwindow.ui" line="3212"/>
-        <location filename="../mainwindow.ui" line="3488"/>
+        <location filename="../mainwindow.ui" line="1023"/>
+        <location filename="../mainwindow.ui" line="1343"/>
+        <location filename="../mainwindow.ui" line="3361"/>
+        <location filename="../mainwindow.ui" line="3579"/>
+        <location filename="../mainwindow.ui" line="3797"/>
+        <location filename="../mainwindow.ui" line="4015"/>
+        <location filename="../mainwindow.ui" line="4233"/>
+        <location filename="../mainwindow.ui" line="4461"/>
+        <location filename="../mainwindow.ui" line="4637"/>
+        <location filename="../mainwindow.ui" line="4813"/>
+        <location filename="../mainwindow.ui" line="5030"/>
+        <location filename="../mainwindow.ui" line="5159"/>
+        <location filename="../mainwindow.ui" line="5513"/>
         <source>2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="407"/>
-        <location filename="../mainwindow.ui" line="786"/>
-        <location filename="../mainwindow.ui" line="2000"/>
-        <location filename="../mainwindow.ui" line="2158"/>
-        <location filename="../mainwindow.ui" line="2316"/>
-        <location filename="../mainwindow.ui" line="2474"/>
-        <location filename="../mainwindow.ui" line="2642"/>
-        <location filename="../mainwindow.ui" line="2782"/>
-        <location filename="../mainwindow.ui" line="2922"/>
-        <location filename="../mainwindow.ui" line="3112"/>
-        <location filename="../mainwindow.ui" line="3217"/>
-        <location filename="../mainwindow.ui" line="3493"/>
+        <location filename="../mainwindow.ui" line="1028"/>
+        <location filename="../mainwindow.ui" line="1348"/>
+        <location filename="../mainwindow.ui" line="3366"/>
+        <location filename="../mainwindow.ui" line="3584"/>
+        <location filename="../mainwindow.ui" line="3802"/>
+        <location filename="../mainwindow.ui" line="4020"/>
+        <location filename="../mainwindow.ui" line="4238"/>
+        <location filename="../mainwindow.ui" line="4466"/>
+        <location filename="../mainwindow.ui" line="4642"/>
+        <location filename="../mainwindow.ui" line="4818"/>
+        <location filename="../mainwindow.ui" line="5035"/>
+        <location filename="../mainwindow.ui" line="5164"/>
+        <location filename="../mainwindow.ui" line="5518"/>
         <source>3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="412"/>
-        <location filename="../mainwindow.ui" line="791"/>
-        <location filename="../mainwindow.ui" line="2005"/>
-        <location filename="../mainwindow.ui" line="2163"/>
-        <location filename="../mainwindow.ui" line="2321"/>
-        <location filename="../mainwindow.ui" line="2479"/>
-        <location filename="../mainwindow.ui" line="2647"/>
-        <location filename="../mainwindow.ui" line="2787"/>
-        <location filename="../mainwindow.ui" line="2927"/>
-        <location filename="../mainwindow.ui" line="3117"/>
-        <location filename="../mainwindow.ui" line="3222"/>
-        <location filename="../mainwindow.ui" line="3498"/>
+        <location filename="../mainwindow.ui" line="1033"/>
+        <location filename="../mainwindow.ui" line="1353"/>
+        <location filename="../mainwindow.ui" line="3371"/>
+        <location filename="../mainwindow.ui" line="3589"/>
+        <location filename="../mainwindow.ui" line="3807"/>
+        <location filename="../mainwindow.ui" line="4025"/>
+        <location filename="../mainwindow.ui" line="4243"/>
+        <location filename="../mainwindow.ui" line="4471"/>
+        <location filename="../mainwindow.ui" line="4647"/>
+        <location filename="../mainwindow.ui" line="4823"/>
+        <location filename="../mainwindow.ui" line="5040"/>
+        <location filename="../mainwindow.ui" line="5169"/>
+        <location filename="../mainwindow.ui" line="5523"/>
         <source>4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="417"/>
-        <location filename="../mainwindow.ui" line="796"/>
-        <location filename="../mainwindow.ui" line="2010"/>
-        <location filename="../mainwindow.ui" line="2168"/>
-        <location filename="../mainwindow.ui" line="2326"/>
-        <location filename="../mainwindow.ui" line="2484"/>
-        <location filename="../mainwindow.ui" line="2652"/>
-        <location filename="../mainwindow.ui" line="2792"/>
-        <location filename="../mainwindow.ui" line="2932"/>
-        <location filename="../mainwindow.ui" line="3122"/>
-        <location filename="../mainwindow.ui" line="3227"/>
-        <location filename="../mainwindow.ui" line="3503"/>
+        <location filename="../mainwindow.ui" line="1038"/>
+        <location filename="../mainwindow.ui" line="1358"/>
+        <location filename="../mainwindow.ui" line="3376"/>
+        <location filename="../mainwindow.ui" line="3594"/>
+        <location filename="../mainwindow.ui" line="3812"/>
+        <location filename="../mainwindow.ui" line="4030"/>
+        <location filename="../mainwindow.ui" line="4248"/>
+        <location filename="../mainwindow.ui" line="4476"/>
+        <location filename="../mainwindow.ui" line="4652"/>
+        <location filename="../mainwindow.ui" line="4828"/>
+        <location filename="../mainwindow.ui" line="5045"/>
+        <location filename="../mainwindow.ui" line="5174"/>
+        <location filename="../mainwindow.ui" line="5528"/>
         <source>5</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="422"/>
-        <location filename="../mainwindow.ui" line="801"/>
-        <location filename="../mainwindow.ui" line="2015"/>
-        <location filename="../mainwindow.ui" line="2173"/>
-        <location filename="../mainwindow.ui" line="2331"/>
-        <location filename="../mainwindow.ui" line="2489"/>
-        <location filename="../mainwindow.ui" line="2657"/>
-        <location filename="../mainwindow.ui" line="2797"/>
-        <location filename="../mainwindow.ui" line="2937"/>
-        <location filename="../mainwindow.ui" line="3127"/>
-        <location filename="../mainwindow.ui" line="3232"/>
-        <location filename="../mainwindow.ui" line="3508"/>
+        <location filename="../mainwindow.ui" line="1043"/>
+        <location filename="../mainwindow.ui" line="1363"/>
+        <location filename="../mainwindow.ui" line="3381"/>
+        <location filename="../mainwindow.ui" line="3599"/>
+        <location filename="../mainwindow.ui" line="3817"/>
+        <location filename="../mainwindow.ui" line="4035"/>
+        <location filename="../mainwindow.ui" line="4253"/>
+        <location filename="../mainwindow.ui" line="4481"/>
+        <location filename="../mainwindow.ui" line="4657"/>
+        <location filename="../mainwindow.ui" line="4833"/>
+        <location filename="../mainwindow.ui" line="5050"/>
+        <location filename="../mainwindow.ui" line="5179"/>
+        <location filename="../mainwindow.ui" line="5533"/>
         <source>6</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="427"/>
-        <location filename="../mainwindow.ui" line="806"/>
-        <location filename="../mainwindow.ui" line="2020"/>
-        <location filename="../mainwindow.ui" line="2178"/>
-        <location filename="../mainwindow.ui" line="2336"/>
-        <location filename="../mainwindow.ui" line="2494"/>
-        <location filename="../mainwindow.ui" line="2662"/>
-        <location filename="../mainwindow.ui" line="2802"/>
-        <location filename="../mainwindow.ui" line="2942"/>
-        <location filename="../mainwindow.ui" line="3132"/>
-        <location filename="../mainwindow.ui" line="3237"/>
-        <location filename="../mainwindow.ui" line="3513"/>
+        <location filename="../mainwindow.ui" line="1048"/>
+        <location filename="../mainwindow.ui" line="1368"/>
+        <location filename="../mainwindow.ui" line="3386"/>
+        <location filename="../mainwindow.ui" line="3604"/>
+        <location filename="../mainwindow.ui" line="3822"/>
+        <location filename="../mainwindow.ui" line="4040"/>
+        <location filename="../mainwindow.ui" line="4258"/>
+        <location filename="../mainwindow.ui" line="4486"/>
+        <location filename="../mainwindow.ui" line="4662"/>
+        <location filename="../mainwindow.ui" line="4838"/>
+        <location filename="../mainwindow.ui" line="5055"/>
+        <location filename="../mainwindow.ui" line="5184"/>
+        <location filename="../mainwindow.ui" line="5538"/>
         <source>7</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="432"/>
-        <location filename="../mainwindow.ui" line="2025"/>
-        <location filename="../mainwindow.ui" line="2183"/>
-        <location filename="../mainwindow.ui" line="2341"/>
-        <location filename="../mainwindow.ui" line="2499"/>
-        <location filename="../mainwindow.ui" line="2667"/>
-        <location filename="../mainwindow.ui" line="2807"/>
-        <location filename="../mainwindow.ui" line="2947"/>
-        <location filename="../mainwindow.ui" line="3137"/>
-        <location filename="../mainwindow.ui" line="3242"/>
-        <location filename="../mainwindow.ui" line="3518"/>
+        <location filename="../mainwindow.ui" line="1053"/>
+        <location filename="../mainwindow.ui" line="3391"/>
+        <location filename="../mainwindow.ui" line="3609"/>
+        <location filename="../mainwindow.ui" line="3827"/>
+        <location filename="../mainwindow.ui" line="4045"/>
+        <location filename="../mainwindow.ui" line="4263"/>
+        <location filename="../mainwindow.ui" line="4491"/>
+        <location filename="../mainwindow.ui" line="4667"/>
+        <location filename="../mainwindow.ui" line="4843"/>
+        <location filename="../mainwindow.ui" line="5060"/>
+        <location filename="../mainwindow.ui" line="5189"/>
+        <location filename="../mainwindow.ui" line="5543"/>
         <source>8</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="437"/>
-        <location filename="../mainwindow.ui" line="816"/>
-        <location filename="../mainwindow.ui" line="2030"/>
-        <location filename="../mainwindow.ui" line="2188"/>
-        <location filename="../mainwindow.ui" line="2346"/>
-        <location filename="../mainwindow.ui" line="2504"/>
-        <location filename="../mainwindow.ui" line="2672"/>
-        <location filename="../mainwindow.ui" line="2812"/>
-        <location filename="../mainwindow.ui" line="2952"/>
-        <location filename="../mainwindow.ui" line="3142"/>
-        <location filename="../mainwindow.ui" line="3247"/>
-        <location filename="../mainwindow.ui" line="3523"/>
+        <location filename="../mainwindow.ui" line="1058"/>
+        <location filename="../mainwindow.ui" line="1378"/>
+        <location filename="../mainwindow.ui" line="3396"/>
+        <location filename="../mainwindow.ui" line="3614"/>
+        <location filename="../mainwindow.ui" line="3832"/>
+        <location filename="../mainwindow.ui" line="4050"/>
+        <location filename="../mainwindow.ui" line="4268"/>
+        <location filename="../mainwindow.ui" line="4496"/>
+        <location filename="../mainwindow.ui" line="4672"/>
+        <location filename="../mainwindow.ui" line="4848"/>
+        <location filename="../mainwindow.ui" line="5065"/>
+        <location filename="../mainwindow.ui" line="5194"/>
+        <location filename="../mainwindow.ui" line="5548"/>
         <source>9</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="442"/>
-        <location filename="../mainwindow.ui" line="821"/>
-        <location filename="../mainwindow.ui" line="2035"/>
-        <location filename="../mainwindow.ui" line="2193"/>
-        <location filename="../mainwindow.ui" line="2351"/>
-        <location filename="../mainwindow.ui" line="2509"/>
-        <location filename="../mainwindow.ui" line="2677"/>
-        <location filename="../mainwindow.ui" line="2817"/>
-        <location filename="../mainwindow.ui" line="2957"/>
-        <location filename="../mainwindow.ui" line="3147"/>
-        <location filename="../mainwindow.ui" line="3252"/>
-        <location filename="../mainwindow.ui" line="3528"/>
+        <location filename="../mainwindow.ui" line="1063"/>
+        <location filename="../mainwindow.ui" line="1383"/>
+        <location filename="../mainwindow.ui" line="3401"/>
+        <location filename="../mainwindow.ui" line="3619"/>
+        <location filename="../mainwindow.ui" line="3837"/>
+        <location filename="../mainwindow.ui" line="4055"/>
+        <location filename="../mainwindow.ui" line="4273"/>
+        <location filename="../mainwindow.ui" line="4501"/>
+        <location filename="../mainwindow.ui" line="4677"/>
+        <location filename="../mainwindow.ui" line="4853"/>
+        <location filename="../mainwindow.ui" line="5070"/>
+        <location filename="../mainwindow.ui" line="5199"/>
+        <location filename="../mainwindow.ui" line="5553"/>
         <source>10</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="447"/>
-        <location filename="../mainwindow.ui" line="826"/>
-        <location filename="../mainwindow.ui" line="2040"/>
-        <location filename="../mainwindow.ui" line="2198"/>
-        <location filename="../mainwindow.ui" line="2356"/>
-        <location filename="../mainwindow.ui" line="2514"/>
-        <location filename="../mainwindow.ui" line="2682"/>
-        <location filename="../mainwindow.ui" line="2822"/>
-        <location filename="../mainwindow.ui" line="2962"/>
-        <location filename="../mainwindow.ui" line="3152"/>
-        <location filename="../mainwindow.ui" line="3257"/>
-        <location filename="../mainwindow.ui" line="3533"/>
+        <location filename="../mainwindow.ui" line="1068"/>
+        <location filename="../mainwindow.ui" line="1388"/>
+        <location filename="../mainwindow.ui" line="3406"/>
+        <location filename="../mainwindow.ui" line="3624"/>
+        <location filename="../mainwindow.ui" line="3842"/>
+        <location filename="../mainwindow.ui" line="4060"/>
+        <location filename="../mainwindow.ui" line="4278"/>
+        <location filename="../mainwindow.ui" line="4506"/>
+        <location filename="../mainwindow.ui" line="4682"/>
+        <location filename="../mainwindow.ui" line="4858"/>
+        <location filename="../mainwindow.ui" line="5075"/>
+        <location filename="../mainwindow.ui" line="5204"/>
+        <location filename="../mainwindow.ui" line="5558"/>
         <source>11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="452"/>
-        <location filename="../mainwindow.ui" line="831"/>
-        <location filename="../mainwindow.ui" line="2045"/>
-        <location filename="../mainwindow.ui" line="2203"/>
-        <location filename="../mainwindow.ui" line="2361"/>
-        <location filename="../mainwindow.ui" line="2519"/>
-        <location filename="../mainwindow.ui" line="2687"/>
-        <location filename="../mainwindow.ui" line="2827"/>
-        <location filename="../mainwindow.ui" line="2967"/>
-        <location filename="../mainwindow.ui" line="3157"/>
-        <location filename="../mainwindow.ui" line="3262"/>
-        <location filename="../mainwindow.ui" line="3538"/>
+        <location filename="../mainwindow.ui" line="1073"/>
+        <location filename="../mainwindow.ui" line="1393"/>
+        <location filename="../mainwindow.ui" line="3411"/>
+        <location filename="../mainwindow.ui" line="3629"/>
+        <location filename="../mainwindow.ui" line="3847"/>
+        <location filename="../mainwindow.ui" line="4065"/>
+        <location filename="../mainwindow.ui" line="4283"/>
+        <location filename="../mainwindow.ui" line="4511"/>
+        <location filename="../mainwindow.ui" line="4687"/>
+        <location filename="../mainwindow.ui" line="4863"/>
+        <location filename="../mainwindow.ui" line="5080"/>
+        <location filename="../mainwindow.ui" line="5209"/>
+        <location filename="../mainwindow.ui" line="5563"/>
         <source>12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="457"/>
-        <location filename="../mainwindow.ui" line="836"/>
-        <location filename="../mainwindow.ui" line="2050"/>
-        <location filename="../mainwindow.ui" line="2208"/>
-        <location filename="../mainwindow.ui" line="2366"/>
-        <location filename="../mainwindow.ui" line="2524"/>
-        <location filename="../mainwindow.ui" line="2692"/>
-        <location filename="../mainwindow.ui" line="2832"/>
-        <location filename="../mainwindow.ui" line="2972"/>
-        <location filename="../mainwindow.ui" line="3162"/>
-        <location filename="../mainwindow.ui" line="3267"/>
-        <location filename="../mainwindow.ui" line="3543"/>
+        <location filename="../mainwindow.ui" line="1078"/>
+        <location filename="../mainwindow.ui" line="1398"/>
+        <location filename="../mainwindow.ui" line="3416"/>
+        <location filename="../mainwindow.ui" line="3634"/>
+        <location filename="../mainwindow.ui" line="3852"/>
+        <location filename="../mainwindow.ui" line="4070"/>
+        <location filename="../mainwindow.ui" line="4288"/>
+        <location filename="../mainwindow.ui" line="4516"/>
+        <location filename="../mainwindow.ui" line="4692"/>
+        <location filename="../mainwindow.ui" line="4868"/>
+        <location filename="../mainwindow.ui" line="5085"/>
+        <location filename="../mainwindow.ui" line="5214"/>
+        <location filename="../mainwindow.ui" line="5568"/>
         <source>13</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="462"/>
-        <location filename="../mainwindow.ui" line="841"/>
-        <location filename="../mainwindow.ui" line="2055"/>
-        <location filename="../mainwindow.ui" line="2213"/>
-        <location filename="../mainwindow.ui" line="2371"/>
-        <location filename="../mainwindow.ui" line="2529"/>
-        <location filename="../mainwindow.ui" line="2697"/>
-        <location filename="../mainwindow.ui" line="2837"/>
-        <location filename="../mainwindow.ui" line="2977"/>
-        <location filename="../mainwindow.ui" line="3167"/>
-        <location filename="../mainwindow.ui" line="3272"/>
-        <location filename="../mainwindow.ui" line="3548"/>
+        <location filename="../mainwindow.ui" line="1083"/>
+        <location filename="../mainwindow.ui" line="1403"/>
+        <location filename="../mainwindow.ui" line="3421"/>
+        <location filename="../mainwindow.ui" line="3639"/>
+        <location filename="../mainwindow.ui" line="3857"/>
+        <location filename="../mainwindow.ui" line="4075"/>
+        <location filename="../mainwindow.ui" line="4293"/>
+        <location filename="../mainwindow.ui" line="4521"/>
+        <location filename="../mainwindow.ui" line="4697"/>
+        <location filename="../mainwindow.ui" line="4873"/>
+        <location filename="../mainwindow.ui" line="5090"/>
+        <location filename="../mainwindow.ui" line="5219"/>
+        <location filename="../mainwindow.ui" line="5573"/>
         <source>14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="467"/>
-        <location filename="../mainwindow.ui" line="846"/>
-        <location filename="../mainwindow.ui" line="2060"/>
-        <location filename="../mainwindow.ui" line="2218"/>
-        <location filename="../mainwindow.ui" line="2376"/>
-        <location filename="../mainwindow.ui" line="2534"/>
-        <location filename="../mainwindow.ui" line="2702"/>
-        <location filename="../mainwindow.ui" line="2842"/>
-        <location filename="../mainwindow.ui" line="2982"/>
-        <location filename="../mainwindow.ui" line="3172"/>
-        <location filename="../mainwindow.ui" line="3277"/>
-        <location filename="../mainwindow.ui" line="3553"/>
+        <location filename="../mainwindow.ui" line="1088"/>
+        <location filename="../mainwindow.ui" line="1408"/>
+        <location filename="../mainwindow.ui" line="3426"/>
+        <location filename="../mainwindow.ui" line="3644"/>
+        <location filename="../mainwindow.ui" line="3862"/>
+        <location filename="../mainwindow.ui" line="4080"/>
+        <location filename="../mainwindow.ui" line="4298"/>
+        <location filename="../mainwindow.ui" line="4526"/>
+        <location filename="../mainwindow.ui" line="4702"/>
+        <location filename="../mainwindow.ui" line="4878"/>
+        <location filename="../mainwindow.ui" line="5095"/>
+        <location filename="../mainwindow.ui" line="5224"/>
+        <location filename="../mainwindow.ui" line="5578"/>
         <source>15</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="472"/>
-        <location filename="../mainwindow.ui" line="851"/>
-        <location filename="../mainwindow.ui" line="2065"/>
-        <location filename="../mainwindow.ui" line="2223"/>
-        <location filename="../mainwindow.ui" line="2381"/>
-        <location filename="../mainwindow.ui" line="2539"/>
-        <location filename="../mainwindow.ui" line="2707"/>
-        <location filename="../mainwindow.ui" line="2847"/>
-        <location filename="../mainwindow.ui" line="2987"/>
-        <location filename="../mainwindow.ui" line="3177"/>
-        <location filename="../mainwindow.ui" line="3282"/>
-        <location filename="../mainwindow.ui" line="3558"/>
+        <location filename="../mainwindow.ui" line="1093"/>
+        <location filename="../mainwindow.ui" line="1413"/>
+        <location filename="../mainwindow.ui" line="3431"/>
+        <location filename="../mainwindow.ui" line="3649"/>
+        <location filename="../mainwindow.ui" line="3867"/>
+        <location filename="../mainwindow.ui" line="4085"/>
+        <location filename="../mainwindow.ui" line="4303"/>
+        <location filename="../mainwindow.ui" line="4531"/>
+        <location filename="../mainwindow.ui" line="4707"/>
+        <location filename="../mainwindow.ui" line="4883"/>
+        <location filename="../mainwindow.ui" line="5100"/>
+        <location filename="../mainwindow.ui" line="5229"/>
+        <location filename="../mainwindow.ui" line="5583"/>
         <source>16</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="480"/>
+        <location filename="../mainwindow.ui" line="962"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This function allows you to enable the tilt/roll/pan outputs after a long press of the reset button. Another long press will disable the output&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="483"/>
+        <location filename="../mainwindow.ui" line="965"/>
         <source>Enable Tilt/Roll/Pan after a long button press</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="490"/>
+        <location filename="../mainwindow.ui" line="848"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows you to recenter using roll output. Set your gain on roll below so that you can hit the minimum and maximum easily. When you roll back and forth from min to maxium will cause a Reset Center after a delay&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="493"/>
+        <location filename="../mainwindow.ui" line="851"/>
         <source>Center on Roll from Min to Max</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="500"/>
-        <location filename="../mainwindow.ui" line="3093"/>
+        <location filename="../mainwindow.ui" line="1113"/>
+        <location filename="../mainwindow.ui" line="5016"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sets the output channel you want tilt on&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="503"/>
-        <source>Center on Proximity Detect</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="510"/>
-        <source>Reset on double tap</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="517"/>
+        <location filename="../mainwindow.ui" line="829"/>
         <source>Board Rotation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="525"/>
-        <location filename="../mainwindow.ui" line="535"/>
-        <location filename="../mainwindow.ui" line="551"/>
-        <location filename="../mainwindow.ui" line="567"/>
-        <location filename="../mainwindow.ui" line="577"/>
-        <location filename="../mainwindow.ui" line="593"/>
+        <location filename="../mainwindow.ui" line="1137"/>
+        <location filename="../mainwindow.ui" line="1159"/>
+        <location filename="../mainwindow.ui" line="1187"/>
+        <location filename="../mainwindow.ui" line="1215"/>
+        <location filename="../mainwindow.ui" line="1237"/>
+        <location filename="../mainwindow.ui" line="1265"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Please see the video online &lt;span style=&quot; font-weight:700;&quot;&gt;Help-&amp;gt;Online Help -&amp;gt; GUI Setup -&amp;gt; General&lt;/span&gt; for an explanation&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="528"/>
+        <location filename="../mainwindow.ui" line="1140"/>
         <source>Tilt (X)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="538"/>
-        <location filename="../mainwindow.ui" line="554"/>
-        <location filename="../mainwindow.ui" line="580"/>
-        <location filename="../mainwindow.cpp" line="896"/>
-        <location filename="../mainwindow.cpp" line="897"/>
-        <location filename="../mainwindow.cpp" line="898"/>
+        <location filename="../mainwindow.ui" line="1162"/>
+        <location filename="../mainwindow.ui" line="1190"/>
+        <location filename="../mainwindow.ui" line="1240"/>
+        <location filename="../mainwindow.cpp" line="970"/>
+        <location filename="../mainwindow.cpp" line="971"/>
+        <location filename="../mainwindow.cpp" line="972"/>
         <source>°</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="570"/>
+        <location filename="../mainwindow.ui" line="1218"/>
         <source>Pan (Z)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="596"/>
+        <location filename="../mainwindow.ui" line="1268"/>
         <source>Roll (Y)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="646"/>
+        <location filename="../mainwindow.ui" line="774"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;To Calibrate the Gyro,&lt;/span&gt;&lt;br/&gt;Place the board on a stable surface and do not touch it for 2 seconds. Do this after every power up.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="649"/>
+        <location filename="../mainwindow.ui" line="777"/>
         <source>Gyrometer Calibrated</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="660"/>
-        <source>Threshold</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="667"/>
-        <source>Min Time</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="674"/>
-        <source>Max Time</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="681"/>
-        <source> m/s^3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="694"/>
-        <location filename="../mainwindow.ui" line="909"/>
+        <location filename="../mainwindow.ui" line="1757"/>
         <source> ms</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="710"/>
-        <source>ms</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="729"/>
+        <location filename="../mainwindow.ui" line="1278"/>
         <source>PPM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="741"/>
-        <source>Pulse Position Modulation (PPM) Output</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="747"/>
+        <location filename="../mainwindow.ui" line="1788"/>
         <source>Sync pulse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="766"/>
+        <location filename="../mainwindow.ui" line="1328"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Number of channels to send.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="811"/>
+        <location filename="../mainwindow.ui" line="1373"/>
         <source>8 - Default</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="859"/>
-        <location filename="../mainwindow.ui" line="1010"/>
-        <location filename="../mainwindow.ui" line="1113"/>
-        <location filename="../mainwindow.ui" line="1141"/>
+        <location filename="../mainwindow.ui" line="1452"/>
+        <location filename="../mainwindow.ui" line="1729"/>
+        <location filename="../mainwindow.ui" line="2000"/>
+        <location filename="../mainwindow.ui" line="2038"/>
         <source>Invert</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="866"/>
+        <location filename="../mainwindow.ui" line="1704"/>
         <source>Frame Length</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="873"/>
+        <location filename="../mainwindow.ui" line="1303"/>
         <source>PPM Output Pin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="887"/>
+        <location filename="../mainwindow.ui" line="1847"/>
         <source>Number of channels to output</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="906"/>
+        <location filename="../mainwindow.ui" line="1754"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;How ofter the PPM repeats itself&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="940"/>
+        <location filename="../mainwindow.ui" line="1813"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The length of pulse used to serparate the channels&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="943"/>
+        <location filename="../mainwindow.ui" line="1816"/>
         <source> us</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="968"/>
-        <location filename="../mainwindow.ui" line="997"/>
-        <source>UNKNOWN</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="978"/>
-        <source>Pulse Position Modulation (PPM) - Input</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="984"/>
+        <location filename="../mainwindow.ui" line="1471"/>
         <source>PPM Input Pin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1007"/>
+        <location filename="../mainwindow.ui" line="1726"/>
         <source>Check PPMin under diagnostics to see current channel data</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1034"/>
+        <location filename="../mainwindow.ui" line="1874"/>
         <source>UART</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1042"/>
+        <location filename="../mainwindow.ui" line="1900"/>
         <source>UART Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1050"/>
-        <location filename="../mainwindow.ui" line="1285"/>
-        <location filename="../mainwindow.cpp" line="930"/>
+        <location filename="../mainwindow.ui" line="887"/>
+        <location filename="../mainwindow.ui" line="1534"/>
+        <location filename="../mainwindow.ui" line="1541"/>
+        <location filename="../mainwindow.ui" line="1629"/>
+        <location filename="../mainwindow.ui" line="1920"/>
+        <location filename="../mainwindow.ui" line="2396"/>
+        <location filename="../mainwindow.cpp" line="1004"/>
         <source>Disabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1055"/>
+        <location filename="../mainwindow.ui" line="1925"/>
         <source>SBUS In + Out</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1060"/>
+        <location filename="../mainwindow.ui" line="1930"/>
         <source>CRSF Input</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1065"/>
+        <location filename="../mainwindow.ui" line="1935"/>
         <source>CRSF Output</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1083"/>
+        <location filename="../mainwindow.ui" line="2095"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Serial Bus (SBUS) - Output&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1090"/>
-        <location filename="../mainwindow.ui" line="1179"/>
+        <location filename="../mainwindow.ui" line="2076"/>
+        <location filename="../mainwindow.ui" line="2177"/>
         <source>Update Rate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1097"/>
-        <location filename="../mainwindow.ui" line="1186"/>
-        <location filename="../mainwindow.cpp" line="661"/>
-        <location filename="../mainwindow.cpp" line="808"/>
+        <location filename="../mainwindow.ui" line="1965"/>
+        <location filename="../mainwindow.ui" line="2196"/>
+        <location filename="../mainwindow.cpp" line="680"/>
+        <location filename="../mainwindow.cpp" line="875"/>
         <source> Hz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1120"/>
+        <location filename="../mainwindow.ui" line="2114"/>
         <source>Sbus output pin - TX (P1.03)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1134"/>
+        <location filename="../mainwindow.ui" line="2057"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Serial Bus (SBUS) - Input&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1148"/>
+        <location filename="../mainwindow.ui" line="2013"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sbus input pin - RX (P1.10)&lt;/p&gt;&lt;p&gt;To use normal Sbus mode(Not inverted) you &lt;span style=&quot; font-weight:600;&quot;&gt;must solder D5 to D6&lt;/span&gt;. This is due to a hardware constraint on the NRF52. If you wish to use inverted SBUS which is a normal UART signal this isn&apos;t required. Please see online documentation for more details.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1165"/>
+        <location filename="../mainwindow.ui" line="2138"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;CRSF Input Settings&lt;/span&gt;&lt;/p&gt;&lt;p&gt;There are no values to configure in this mode&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1202"/>
+        <location filename="../mainwindow.ui" line="2224"/>
         <source>Set Channel 5 to 2000uS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1222"/>
+        <location filename="../mainwindow.ui" line="2256"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;CRSF Output Settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1232"/>
+        <location filename="../mainwindow.ui" line="2278"/>
         <source>Use channel 5 as AUX1 / ARM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1239"/>
+        <location filename="../mainwindow.ui" line="2297"/>
         <source>CRSF Output Level</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1246"/>
+        <location filename="../mainwindow.ui" line="2316"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Invert the CRSF output if you are directly connecting to a radio module S.PORT&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1249"/>
+        <location filename="../mainwindow.ui" line="2319"/>
         <source>Invert TX</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1261"/>
+        <location filename="../mainwindow.ui" line="2331"/>
         <source>BlueTooth</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1274"/>
+        <location filename="../mainwindow.ui" line="2546"/>
         <source>Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1290"/>
+        <location filename="../mainwindow.ui" line="2401"/>
         <source>FrSky - Wireless Transmitter (Head)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1295"/>
+        <location filename="../mainwindow.ui" line="2406"/>
         <source>FrSky - Wireless Receiver (Remote)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1300"/>
+        <location filename="../mainwindow.ui" line="2411"/>
         <source>FrSky - Wireless Receiver - Scanner Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1305"/>
-        <source>Bluetooth HID Joystick</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="1313"/>
+        <location filename="../mainwindow.ui" line="2527"/>
         <source>Status</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1320"/>
+        <location filename="../mainwindow.ui" line="2508"/>
         <source>Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1327"/>
+        <location filename="../mainwindow.ui" line="2438"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Bluetooth supports 8 channels&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Change the BT mode, Save Settings and Reboot for this to take effect&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Any channels that are set higher than 8 won&apos;t be sent/received.&lt;br/&gt;&lt;br/&gt;If set as a receiver you will usually want to leave all the channels set OFF allowing the remote bluetooth channels to pass through.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1364"/>
+        <location filename="../mainwindow.ui" line="2487"/>
         <source>BT Connection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1373"/>
+        <location filename="../mainwindow.ui" line="2431"/>
         <source>Remote Connection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1380"/>
+        <location filename="../mainwindow.ui" line="513"/>
+        <source>Axis Signs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="535"/>
+        <source>&amp;Send</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="590"/>
+        <source>X+,Y+,Z+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="595"/>
+        <source>X+,Y+,Z-</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="600"/>
+        <source>X+,Y-,Z+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="605"/>
+        <source>X+,Y-,Z-</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="610"/>
+        <source>X-,Y+,Z+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="615"/>
+        <source>X-,Y+,Z-</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="620"/>
+        <source>X-,Y-,Z+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="625"/>
+        <source>X-,Y-,Z-</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="667"/>
+        <source>Manual Command</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="692"/>
+        <source>Axis Remapping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="883"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Choose the pin you want to wire your center button to here&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="892"/>
+        <location filename="../mainwindow.ui" line="1546"/>
+        <location filename="../mainwindow.ui" line="1634"/>
+        <source>D2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="897"/>
+        <location filename="../mainwindow.ui" line="1551"/>
+        <location filename="../mainwindow.ui" line="1639"/>
+        <source>D3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="902"/>
+        <location filename="../mainwindow.ui" line="1556"/>
+        <location filename="../mainwindow.ui" line="1644"/>
+        <source>D4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="907"/>
+        <location filename="../mainwindow.ui" line="1561"/>
+        <location filename="../mainwindow.ui" line="1649"/>
+        <source>D5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="912"/>
+        <location filename="../mainwindow.ui" line="1566"/>
+        <location filename="../mainwindow.ui" line="1654"/>
+        <source>D6</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="917"/>
+        <location filename="../mainwindow.ui" line="1571"/>
+        <location filename="../mainwindow.ui" line="1659"/>
+        <source>D7</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="922"/>
+        <location filename="../mainwindow.ui" line="1576"/>
+        <location filename="../mainwindow.ui" line="1664"/>
+        <source>D8</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="927"/>
+        <location filename="../mainwindow.ui" line="1581"/>
+        <location filename="../mainwindow.ui" line="1669"/>
+        <source>D9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="932"/>
+        <location filename="../mainwindow.ui" line="1586"/>
+        <location filename="../mainwindow.ui" line="1674"/>
+        <source>D10</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="937"/>
+        <location filename="../mainwindow.ui" line="1591"/>
+        <location filename="../mainwindow.ui" line="1679"/>
+        <source>D11</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="942"/>
+        <location filename="../mainwindow.ui" line="1596"/>
+        <location filename="../mainwindow.ui" line="1684"/>
+        <source>D12</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="990"/>
+        <source>Center Button</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="1116"/>
+        <source>Center on Proximity Detect (BLE Sense Only)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="1433"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Pulse Position Modulation (PPM) - Output&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="1503"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Pulse Position Modulation (PPM) - Input&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="1531"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Check the channel viewer to see the incoming PPM channels&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="1622"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;PPM Output Pin&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="2349"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;First Available - &lt;/span&gt;Connects to the first available device found&lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;XX:XX:XX:XX:XX:XX&lt;/span&gt; - Valid devices found will show their address, select one to only pair to this device&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;If you only want to connect to a single device,&lt;/span&gt;&lt;br/&gt;1) Set Mode to Receiver, Scan only&lt;br/&gt;2) Turn on the Head tracker board or your radio Trainer Slave/Bluetooth mode.&lt;br/&gt;3) Wait for the device to be discovered.&lt;br/&gt;4) Select the desired BT Address from the drop down&lt;br/&gt;5) Set Mode to Receiver Mode&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1384"/>
-        <location filename="../mainwindow.cpp" line="349"/>
+        <location filename="../mainwindow.ui" line="2353"/>
+        <location filename="../mainwindow.cpp" line="379"/>
         <source>First Available Device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1393"/>
+        <location filename="../mainwindow.ui" line="2567"/>
         <source>PWM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1406"/>
-        <location filename="../mainwindow.ui" line="1517"/>
-        <location filename="../mainwindow.ui" line="1640"/>
-        <location filename="../mainwindow.ui" line="1755"/>
+        <location filename="../mainwindow.ui" line="2586"/>
+        <location filename="../mainwindow.ui" line="2703"/>
+        <location filename="../mainwindow.ui" line="2880"/>
+        <location filename="../mainwindow.ui" line="3013"/>
         <source>Disable</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1411"/>
-        <location filename="../mainwindow.ui" line="1522"/>
-        <location filename="../mainwindow.ui" line="1645"/>
-        <location filename="../mainwindow.ui" line="1760"/>
+        <location filename="../mainwindow.ui" line="2591"/>
+        <location filename="../mainwindow.ui" line="2708"/>
+        <location filename="../mainwindow.ui" line="2885"/>
+        <location filename="../mainwindow.ui" line="3018"/>
         <source>Channel 1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1416"/>
-        <location filename="../mainwindow.ui" line="1527"/>
-        <location filename="../mainwindow.ui" line="1650"/>
-        <location filename="../mainwindow.ui" line="1765"/>
+        <location filename="../mainwindow.ui" line="2596"/>
+        <location filename="../mainwindow.ui" line="2713"/>
+        <location filename="../mainwindow.ui" line="2890"/>
+        <location filename="../mainwindow.ui" line="3023"/>
         <source>Channel 2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1421"/>
-        <location filename="../mainwindow.ui" line="1532"/>
-        <location filename="../mainwindow.ui" line="1655"/>
-        <location filename="../mainwindow.ui" line="1770"/>
+        <location filename="../mainwindow.ui" line="2601"/>
+        <location filename="../mainwindow.ui" line="2718"/>
+        <location filename="../mainwindow.ui" line="2895"/>
+        <location filename="../mainwindow.ui" line="3028"/>
         <source>Channel 3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1426"/>
-        <location filename="../mainwindow.ui" line="1537"/>
-        <location filename="../mainwindow.ui" line="1660"/>
-        <location filename="../mainwindow.ui" line="1775"/>
+        <location filename="../mainwindow.ui" line="2606"/>
+        <location filename="../mainwindow.ui" line="2723"/>
+        <location filename="../mainwindow.ui" line="2900"/>
+        <location filename="../mainwindow.ui" line="3033"/>
         <source>Channel 4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1431"/>
-        <location filename="../mainwindow.ui" line="1542"/>
-        <location filename="../mainwindow.ui" line="1665"/>
-        <location filename="../mainwindow.ui" line="1780"/>
+        <location filename="../mainwindow.ui" line="2611"/>
+        <location filename="../mainwindow.ui" line="2728"/>
+        <location filename="../mainwindow.ui" line="2905"/>
+        <location filename="../mainwindow.ui" line="3038"/>
         <source>Channel 5</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1436"/>
-        <location filename="../mainwindow.ui" line="1547"/>
-        <location filename="../mainwindow.ui" line="1670"/>
-        <location filename="../mainwindow.ui" line="1785"/>
+        <location filename="../mainwindow.ui" line="2616"/>
+        <location filename="../mainwindow.ui" line="2733"/>
+        <location filename="../mainwindow.ui" line="2910"/>
+        <location filename="../mainwindow.ui" line="3043"/>
         <source>Channel 6</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1441"/>
-        <location filename="../mainwindow.ui" line="1552"/>
-        <location filename="../mainwindow.ui" line="1675"/>
-        <location filename="../mainwindow.ui" line="1790"/>
+        <location filename="../mainwindow.ui" line="2621"/>
+        <location filename="../mainwindow.ui" line="2738"/>
+        <location filename="../mainwindow.ui" line="2915"/>
+        <location filename="../mainwindow.ui" line="3048"/>
         <source>Channel 7</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1446"/>
-        <location filename="../mainwindow.ui" line="1557"/>
-        <location filename="../mainwindow.ui" line="1680"/>
-        <location filename="../mainwindow.ui" line="1795"/>
+        <location filename="../mainwindow.ui" line="2626"/>
+        <location filename="../mainwindow.ui" line="2743"/>
+        <location filename="../mainwindow.ui" line="2920"/>
+        <location filename="../mainwindow.ui" line="3053"/>
         <source>Channel 8</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1451"/>
-        <location filename="../mainwindow.ui" line="1562"/>
-        <location filename="../mainwindow.ui" line="1685"/>
-        <location filename="../mainwindow.ui" line="1800"/>
+        <location filename="../mainwindow.ui" line="2631"/>
+        <location filename="../mainwindow.ui" line="2748"/>
+        <location filename="../mainwindow.ui" line="2925"/>
+        <location filename="../mainwindow.ui" line="3058"/>
         <source>Channel 9</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1456"/>
-        <location filename="../mainwindow.ui" line="1567"/>
-        <location filename="../mainwindow.ui" line="1690"/>
-        <location filename="../mainwindow.ui" line="1805"/>
+        <location filename="../mainwindow.ui" line="2636"/>
+        <location filename="../mainwindow.ui" line="2753"/>
+        <location filename="../mainwindow.ui" line="2930"/>
+        <location filename="../mainwindow.ui" line="3063"/>
         <source>Channel 10</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1461"/>
-        <location filename="../mainwindow.ui" line="1572"/>
-        <location filename="../mainwindow.ui" line="1695"/>
-        <location filename="../mainwindow.ui" line="1810"/>
+        <location filename="../mainwindow.ui" line="2641"/>
+        <location filename="../mainwindow.ui" line="2758"/>
+        <location filename="../mainwindow.ui" line="2935"/>
+        <location filename="../mainwindow.ui" line="3068"/>
         <source>Channel 11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1466"/>
-        <location filename="../mainwindow.ui" line="1577"/>
-        <location filename="../mainwindow.ui" line="1700"/>
-        <location filename="../mainwindow.ui" line="1815"/>
+        <location filename="../mainwindow.ui" line="2646"/>
+        <location filename="../mainwindow.ui" line="2763"/>
+        <location filename="../mainwindow.ui" line="2940"/>
+        <location filename="../mainwindow.ui" line="3073"/>
         <source>Channel 12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1471"/>
-        <location filename="../mainwindow.ui" line="1582"/>
-        <location filename="../mainwindow.ui" line="1705"/>
-        <location filename="../mainwindow.ui" line="1820"/>
+        <location filename="../mainwindow.ui" line="2651"/>
+        <location filename="../mainwindow.ui" line="2768"/>
+        <location filename="../mainwindow.ui" line="2945"/>
+        <location filename="../mainwindow.ui" line="3078"/>
         <source>Channel 13</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1476"/>
-        <location filename="../mainwindow.ui" line="1587"/>
-        <location filename="../mainwindow.ui" line="1710"/>
-        <location filename="../mainwindow.ui" line="1825"/>
+        <location filename="../mainwindow.ui" line="2656"/>
+        <location filename="../mainwindow.ui" line="2773"/>
+        <location filename="../mainwindow.ui" line="2950"/>
+        <location filename="../mainwindow.ui" line="3083"/>
         <source>Channel 14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1481"/>
-        <location filename="../mainwindow.ui" line="1592"/>
-        <location filename="../mainwindow.ui" line="1715"/>
-        <location filename="../mainwindow.ui" line="1830"/>
+        <location filename="../mainwindow.ui" line="2661"/>
+        <location filename="../mainwindow.ui" line="2778"/>
+        <location filename="../mainwindow.ui" line="2955"/>
+        <location filename="../mainwindow.ui" line="3088"/>
         <source>Channel 15</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1486"/>
-        <location filename="../mainwindow.ui" line="1597"/>
-        <location filename="../mainwindow.ui" line="1720"/>
-        <location filename="../mainwindow.ui" line="1835"/>
+        <location filename="../mainwindow.ui" line="2666"/>
+        <location filename="../mainwindow.ui" line="2783"/>
+        <location filename="../mainwindow.ui" line="2960"/>
+        <location filename="../mainwindow.ui" line="3093"/>
         <source>Channel 16</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1605"/>
+        <location filename="../mainwindow.ui" line="2803"/>
         <source>A3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1612"/>
+        <location filename="../mainwindow.ui" line="2822"/>
         <source>A2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1619"/>
+        <location filename="../mainwindow.ui" line="2841"/>
         <source>A0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1626"/>
+        <location filename="../mainwindow.ui" line="2860"/>
         <source>A1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1728"/>
+        <location filename="../mainwindow.ui" line="2980"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;PWM Output Pins&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1843"/>
+        <location filename="../mainwindow.ui" line="3113"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;PWM output is 3.3V, some servos may not respond properly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1851"/>
+        <location filename="../mainwindow.ui" line="3121"/>
         <source>Analog+Aux</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1881"/>
+        <location filename="../mainwindow.ui" line="3160"/>
         <source>Gain (us/volt)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1894"/>
+        <location filename="../mainwindow.ui" line="3182"/>
         <source>Offset (us)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1907"/>
-        <location filename="../mainwindow.ui" line="2568"/>
-        <location filename="../mainwindow.ui" line="3185"/>
+        <location filename="../mainwindow.ui" line="3210"/>
+        <location filename="../mainwindow.ui" line="4356"/>
+        <location filename="../mainwindow.ui" line="5123"/>
         <source>Channel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1948"/>
+        <location filename="../mainwindow.ui" line="3266"/>
+        <location filename="../mainwindow.cpp" line="1467"/>
         <source>Analog A4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="2106"/>
+        <location filename="../mainwindow.ui" line="3484"/>
+        <location filename="../mainwindow.cpp" line="1468"/>
         <source>Analog A5</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="2264"/>
+        <location filename="../mainwindow.ui" line="3702"/>
+        <location filename="../mainwindow.cpp" line="1469"/>
         <source>Analog A6</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="2422"/>
+        <location filename="../mainwindow.ui" line="3920"/>
+        <location filename="../mainwindow.cpp" line="1470"/>
         <source>Analog A7</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="2561"/>
-        <source>Function&apos;</source>
+        <location filename="../mainwindow.ui" line="4138"/>
+        <location filename="../mainwindow.cpp" line="1471"/>
+        <source>Analog A8</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="2575"/>
+        <location filename="../mainwindow.ui" line="4337"/>
+        <source>Function</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="4375"/>
         <source>Aux function 1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="2583"/>
-        <location filename="../mainwindow.ui" line="2723"/>
-        <location filename="../mainwindow.ui" line="2863"/>
+        <location filename="../mainwindow.ui" line="4395"/>
+        <location filename="../mainwindow.ui" line="4571"/>
+        <location filename="../mainwindow.ui" line="4747"/>
         <source>X Gyrometer +/- 1000deg/s</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="2588"/>
-        <location filename="../mainwindow.ui" line="2728"/>
-        <location filename="../mainwindow.ui" line="2868"/>
+        <location filename="../mainwindow.ui" line="4400"/>
+        <location filename="../mainwindow.ui" line="4576"/>
+        <location filename="../mainwindow.ui" line="4752"/>
         <source>Y Gyrometer +/- 1000deg/s</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="2593"/>
-        <location filename="../mainwindow.ui" line="2733"/>
-        <location filename="../mainwindow.ui" line="2873"/>
+        <location filename="../mainwindow.ui" line="4405"/>
+        <location filename="../mainwindow.ui" line="4581"/>
+        <location filename="../mainwindow.ui" line="4757"/>
         <source>Z Gyrometer +/- 1000deg/s</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="2598"/>
-        <location filename="../mainwindow.ui" line="2738"/>
-        <location filename="../mainwindow.ui" line="2878"/>
+        <location filename="../mainwindow.ui" line="4410"/>
+        <location filename="../mainwindow.ui" line="4586"/>
+        <location filename="../mainwindow.ui" line="4762"/>
         <source>X Acceleration +/- 2g</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="2603"/>
-        <location filename="../mainwindow.ui" line="2743"/>
-        <location filename="../mainwindow.ui" line="2883"/>
+        <location filename="../mainwindow.ui" line="4415"/>
+        <location filename="../mainwindow.ui" line="4591"/>
+        <location filename="../mainwindow.ui" line="4767"/>
         <source>Y Acceleration +/- 2g</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="2608"/>
-        <location filename="../mainwindow.ui" line="2748"/>
-        <location filename="../mainwindow.ui" line="2888"/>
+        <location filename="../mainwindow.ui" line="4420"/>
+        <location filename="../mainwindow.ui" line="4596"/>
+        <location filename="../mainwindow.ui" line="4772"/>
         <source>Z Acceleration +/- 2g</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="2613"/>
-        <location filename="../mainwindow.ui" line="2753"/>
-        <location filename="../mainwindow.ui" line="2893"/>
+        <location filename="../mainwindow.ui" line="4425"/>
+        <location filename="../mainwindow.ui" line="4601"/>
+        <location filename="../mainwindow.ui" line="4777"/>
         <source>Z Acceleration +/- 2g (Offset by 1g)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="2618"/>
-        <location filename="../mainwindow.ui" line="2758"/>
-        <location filename="../mainwindow.ui" line="2898"/>
+        <location filename="../mainwindow.ui" line="4430"/>
+        <location filename="../mainwindow.ui" line="4606"/>
+        <location filename="../mainwindow.ui" line="4782"/>
         <source>Bluetooth RSSI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="2715"/>
+        <location filename="../mainwindow.ui" line="4551"/>
         <source>Aux function 2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="2855"/>
+        <location filename="../mainwindow.ui" line="4727"/>
         <source>Aux function 3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3026"/>
+        <location filename="../mainwindow.ui" line="4934"/>
         <source>IMU Output - Local Board</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3043"/>
-        <location filename="../mainwindow.ui" line="3362"/>
-        <location filename="../mainwindow.ui" line="3670"/>
+        <location filename="../mainwindow.ui" line="4957"/>
+        <location filename="../mainwindow.ui" line="5363"/>
+        <location filename="../mainwindow.ui" line="5713"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;Actual values from the board&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3080"/>
-        <location filename="../mainwindow.ui" line="3302"/>
-        <location filename="../mainwindow.ui" line="3609"/>
+        <location filename="../mainwindow.ui" line="4997"/>
+        <location filename="../mainwindow.ui" line="5255"/>
+        <location filename="../mainwindow.ui" line="5646"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts your servos center and min/max range here&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3198"/>
+        <location filename="../mainwindow.ui" line="5145"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sets the output channel you want roll on&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3315"/>
-        <location filename="../mainwindow.cpp" line="935"/>
+        <location filename="../mainwindow.ui" line="5280"/>
+        <location filename="../mainwindow.cpp" line="1009"/>
         <source>Range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3331"/>
+        <location filename="../mainwindow.ui" line="5308"/>
         <source>Tilt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3344"/>
+        <location filename="../mainwindow.ui" line="5336"/>
         <source>Roll</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3393"/>
+        <location filename="../mainwindow.ui" line="5403"/>
         <source>Pan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3415"/>
+        <location filename="../mainwindow.ui" line="5434"/>
         <source>Reverse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3437"/>
-        <location filename="../mainwindow.ui" line="3628"/>
-        <location filename="../mainwindow.ui" line="3754"/>
+        <location filename="../mainwindow.ui" line="5456"/>
+        <location filename="../mainwindow.ui" line="5665"/>
+        <location filename="../mainwindow.ui" line="5809"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the sensitivity of the servo output&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3474"/>
+        <location filename="../mainwindow.ui" line="5499"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sets the output channel you want pan on&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3578"/>
-        <location filename="../mainwindow.ui" line="3723"/>
-        <location filename="../mainwindow.ui" line="3797"/>
+        <location filename="../mainwindow.ui" line="5609"/>
+        <location filename="../mainwindow.ui" line="5778"/>
+        <location filename="../mainwindow.ui" line="5858"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;These will reverse your servo output&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3701"/>
+        <location filename="../mainwindow.ui" line="5750"/>
         <source>Value</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3828"/>
+        <location filename="../mainwindow.ui" line="5895"/>
         <source>Gain</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3847"/>
+        <location filename="../mainwindow.ui" line="5914"/>
         <source>Graph - Local Board</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3882"/>
+        <location filename="../mainwindow.ui" line="5959"/>
+        <source>Start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="5978"/>
+        <source>Stop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="6013"/>
+        <source>Show data without offsets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="6019"/>
+        <source>Show Raw Data</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="6041"/>
         <source>&amp;File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3891"/>
+        <location filename="../mainwindow.ui" line="6050"/>
         <source>Firmware</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3897"/>
+        <location filename="../mainwindow.ui" line="6056"/>
         <source>&amp;Diagnostics</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3906"/>
+        <location filename="../mainwindow.ui" line="6065"/>
         <source>&amp;Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3926"/>
+        <location filename="../mainwindow.ui" line="6085"/>
         <source>&amp;Export Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3934"/>
+        <location filename="../mainwindow.ui" line="6093"/>
         <source>&amp;Import Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3939"/>
+        <location filename="../mainwindow.ui" line="6098"/>
         <source>E&amp;xit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3944"/>
+        <location filename="../mainwindow.ui" line="6103"/>
         <source>&amp;Calibrate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3949"/>
-        <location filename="../mainwindow.ui" line="3964"/>
+        <location filename="../mainwindow.ui" line="6108"/>
+        <location filename="../mainwindow.ui" line="6123"/>
         <source>Upload Firmware</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3954"/>
+        <location filename="../mainwindow.ui" line="6113"/>
         <source>Show Data</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3959"/>
-        <location filename="../mainwindow.cpp" line="50"/>
+        <location filename="../mainwindow.ui" line="6118"/>
+        <location filename="../mainwindow.cpp" line="52"/>
         <source>Serial Information</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3969"/>
+        <location filename="../mainwindow.ui" line="6128"/>
         <source>Channel Viewer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3974"/>
+        <location filename="../mainwindow.ui" line="6133"/>
         <source>Clear Flash</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3979"/>
+        <location filename="../mainwindow.ui" line="6138"/>
         <source>Online Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3984"/>
+        <location filename="../mainwindow.ui" line="6143"/>
         <source>Nano 33 BLE Pinout</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3989"/>
+        <location filename="../mainwindow.ui" line="6148"/>
         <source>&amp;Restore Defaults</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3994"/>
+        <location filename="../mainwindow.ui" line="6153"/>
         <source>Discord &amp;Chat</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="3999"/>
+        <location filename="../mainwindow.ui" line="6158"/>
         <source>&amp;Donate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="4004"/>
+        <location filename="../mainwindow.ui" line="6163"/>
         <source>&amp;GitHub</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2446,306 +2668,307 @@ Killed programmer process!
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="260"/>
+        <location filename="../mainwindow.cpp" line="284"/>
         <source> Disconnect</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="272"/>
-        <location filename="../mainwindow.cpp" line="377"/>
-        <location filename="../mainwindow.cpp" line="1039"/>
-        <location filename="../mainwindow.cpp" line="1235"/>
-        <location filename="../mainwindow.cpp" line="1260"/>
+        <location filename="../mainwindow.cpp" line="296"/>
+        <location filename="../mainwindow.cpp" line="407"/>
+        <location filename="../mainwindow.cpp" line="833"/>
+        <location filename="../mainwindow.cpp" line="1115"/>
         <location filename="../mainwindow.cpp" line="1365"/>
+        <location filename="../mainwindow.cpp" line="1389"/>
+        <location filename="../mainwindow.cpp" line="1517"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="272"/>
+        <location filename="../mainwindow.cpp" line="296"/>
         <source>Could not open Com </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="284"/>
-        <location filename="../mainwindow.cpp" line="285"/>
+        <location filename="../mainwindow.cpp" line="308"/>
+        <location filename="../mainwindow.cpp" line="309"/>
         <source>Connected to </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="305"/>
+        <location filename="../mainwindow.cpp" line="329"/>
         <source>Disconnecting from </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="315"/>
+        <location filename="../mainwindow.cpp" line="340"/>
         <source>Disconnected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="316"/>
+        <location filename="../mainwindow.cpp" line="341"/>
         <source> Connect</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="359"/>
+        <location filename="../mainwindow.cpp" line="389"/>
         <source>Connection lost</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="377"/>
+        <location filename="../mainwindow.cpp" line="407"/>
         <source>No valid board detected
 Please check COM port or flash proper code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="427"/>
+        <location filename="../mainwindow.cpp" line="457"/>
         <source>Serial Out:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="659"/>
-        <location filename="../mainwindow.cpp" line="806"/>
+        <location filename="../mainwindow.cpp" line="678"/>
+        <location filename="../mainwindow.cpp" line="873"/>
         <source>&lt;b&gt;Warning!&lt;/b&gt; PPM Frame length possibly too short to support channel data</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="661"/>
-        <location filename="../mainwindow.cpp" line="808"/>
+        <location filename="../mainwindow.cpp" line="680"/>
+        <location filename="../mainwindow.cpp" line="875"/>
         <source>PPM data will fit in frame. Refresh rate: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="926"/>
+        <location filename="../mainwindow.cpp" line="830"/>
+        <source>Cannot pick dulplicate pins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="832"/>
+        <source>
+  * non-inverted SBUS receive requires  D5 and D6 connected together</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1000"/>
         <source>Connected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="928"/>
+        <location filename="../mainwindow.cpp" line="1002"/>
         <source>Not connected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="941"/>
+        <location filename="../mainwindow.cpp" line="1015"/>
         <source>&lt;b&gt;Range - Output Disabled&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="975"/>
+        <location filename="../mainwindow.cpp" line="1049"/>
         <source>Info</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="975"/>
+        <location filename="../mainwindow.cpp" line="1049"/>
         <source>Please connect before restoring a saved file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="979"/>
+        <location filename="../mainwindow.cpp" line="1053"/>
         <source>Open File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="962"/>
-        <location filename="../mainwindow.cpp" line="979"/>
+        <location filename="../mainwindow.cpp" line="1114"/>
+        <source>Was unable to determine the board type
+
+Have you written the firmware to the board yet?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1428"/>
+        <location filename="../mainwindow.cpp" line="1502"/>
+        <source>Connected to a </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1454"/>
+        <source>Battery Voltage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1455"/>
+        <source>Analog 1 (0.29)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1456"/>
+        <source>Analog 2 (0.02)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1457"/>
+        <source>Analog 3 (0.28)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1458"/>
+        <source>Analog 4 (0.30)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1516"/>
+        <location filename="../mainwindow.cpp" line="1519"/>
+        <source>Unknown board type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1036"/>
+        <location filename="../mainwindow.cpp" line="1053"/>
         <source>Config Files (*.ini)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="273"/>
+        <location filename="../mainwindow.cpp" line="297"/>
         <source>Could not open </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="962"/>
+        <location filename="../mainwindow.cpp" line="1036"/>
         <source>Save Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="995"/>
+        <location filename="../mainwindow.cpp" line="1072"/>
         <source>Changes not sent</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="995"/>
+        <location filename="../mainwindow.cpp" line="1072"/>
         <source>Are you sure you want to disconnect?
 Changes haven&apos;t been sent to the headtracker
 Click &quot;Send Changes&quot; first</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1001"/>
+        <location filename="../mainwindow.cpp" line="1078"/>
         <source>Changes not saved on tracker</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1001"/>
+        <location filename="../mainwindow.cpp" line="1078"/>
         <source>Are you sure you want to disconnect?
 Changes haven&apos;t been permanently stored on headtracker
 Click &quot;Save settings&quot; first</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1031"/>
-        <source>Trying to connect to Head Tracker
-</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="1038"/>
-        <source>Was unable to determine the board type
-
-Have you written firmware to the board yet?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="1041"/>
+        <location filename="../mainwindow.cpp" line="1117"/>
         <source>Board discovery failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1062"/>
+        <location filename="../mainwindow.cpp" line="1127"/>
+        <source>Trying to connect to </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1161"/>
         <source>Set Defaults?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1062"/>
+        <location filename="../mainwindow.cpp" line="1161"/>
         <source>This will erase all settings to defaults<byte value="xd"/>
 Are you sure?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1077"/>
+        <location filename="../mainwindow.cpp" line="1177"/>
         <source>Not Connected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1077"/>
+        <location filename="../mainwindow.cpp" line="1177"/>
         <source>Connect before trying to calibrate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1093"/>
+        <location filename="../mainwindow.cpp" line="1199"/>
         <source>Storing Parameters to memory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1181"/>
+        <location filename="../mainwindow.cpp" line="1310"/>
         <source>Changes not saved</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1181"/>
+        <location filename="../mainwindow.cpp" line="1310"/>
         <source>Are you sure you want to reboot?
 Changes haven&apos;t been saved
 Click &quot;Save Settings&quot; first</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1224"/>
+        <location filename="../mainwindow.cpp" line="1354"/>
         <source>Starting parameter send</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1229"/>
+        <location filename="../mainwindow.cpp" line="1359"/>
         <source>Parameter(s) saved</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1234"/>
+        <location filename="../mainwindow.cpp" line="1364"/>
         <source>Unable to upload the parameter(s))</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1237"/>
+        <location filename="../mainwindow.cpp" line="1367"/>
         <source>Parameters Send Failure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1243"/>
+        <location filename="../mainwindow.cpp" line="1373"/>
         <source>Parameters Request Started</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1248"/>
+        <location filename="../mainwindow.cpp" line="1378"/>
         <source>Parameters Request Complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1259"/>
+        <location filename="../mainwindow.cpp" line="1388"/>
         <source>Unable to receive the parameters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1262"/>
+        <location filename="../mainwindow.cpp" line="1391"/>
         <source>Parameter Received Failure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1268"/>
-        <source>Features Request Started</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="1273"/>
-        <source>Features Request Complete</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="1364"/>
-        <source>Unable to receive the boards features</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="1367"/>
-        <source>Features Receive Failure</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="1374"/>
+        <location filename="../mainwindow.cpp" line="1397"/>
         <source>Calibration Success</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1379"/>
+        <location filename="../mainwindow.cpp" line="1402"/>
         <source>Calibration Failure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1389"/>
+        <location filename="../mainwindow.cpp" line="1414"/>
         <source>Calibration has not been performed.
 Please calibrate or restore from a saved file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1390"/>
+        <location filename="../mainwindow.cpp" line="1415"/>
         <source>Calibrate</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="1409"/>
-        <source>The firmware on the board is too old. Upload a </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="1409"/>
-        <source>x version of firmware for this GUI</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="1410"/>
-        <location filename="../mainwindow.cpp" line="1417"/>
-        <source>Firmware Version Mismatch</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="1416"/>
-        <source>Firmware is newer than supported by this application
-Download the GUI v</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="1416"/>
-        <source> from www.github.com/dlktdr/headtracker</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

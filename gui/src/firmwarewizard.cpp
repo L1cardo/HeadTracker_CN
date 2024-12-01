@@ -129,7 +129,7 @@ void FirmwareWizard::startPortDiscovery(const QString &filename)
        QFileInfo(file).fileName().startsWith("BLE") ||
        QFileInfo(file).fileName().startsWith("DTQ") ||
        data.mid(2,2) == BLE33HEADER_BIN_ZEPHER) {
-        addToLog(tr(" Firmware is for the Arduino Nano BLE 33 in bin format"));
+        addToLog(tr("Firmware is for the Arduino Nano BLE 33 in bin format"));
         boardType = BRD_NANO33BLE;
         programmercommand = bossac_programmer;
         arguments.clear();
@@ -140,7 +140,7 @@ void FirmwareWizard::startPortDiscovery(const QString &filename)
         setState(PRG_WAIT4PORT);
     }
     else if(data.startsWith(BLE33HEADER_HEX)) {
-            addToLog(tr(" Firmware is for the Arduino Nano BLE 33 in hex format"));
+            addToLog(tr("Firmware is for the Arduino Nano BLE 33 in hex format"));
             boardType = BRD_NANO33BLE;
             programmercommand = bossac_programmer;
             arguments.clear();
@@ -152,7 +152,7 @@ void FirmwareWizard::startPortDiscovery(const QString &filename)
 
     } else if (data.startsWith(NANOHEADER_HEX)) {
         QFile::copy(filename,"localavr.hex"); // AVRdude doesn't like paths, so use a local file
-        addToLog(tr(" Firmware is for the Arduino Nano in intel hex format"));
+        addToLog(tr("Firmware is for the Arduino Nano in intel hex format"));
         boardType = BRD_ARDUINONANO;
         programmercommand = "avrdude.exe";
         arguments.clear();
@@ -460,7 +460,7 @@ void FirmwareWizard::programClicked()
 
     // If a local file, just call ready
     if(firmwarefile.startsWith("file://")) {
-        addToLog("Loading local file " + firmwarefile.mid(7));
+        addToLog(tr("Loading local file ") + firmwarefile.mid(7));
         firmwareReady();
 
     // Otherwise download it
@@ -539,7 +539,7 @@ void FirmwareWizard::programmerErrorOccured(QProcess::ProcessError error)
         break;
     }
     default: {
-        addToLog("Programmer Error " + programmer->errorString());
+        addToLog(tr("Programmer Error ") + programmer->errorString());
         backClicked();
     }
     }

@@ -28,13 +28,13 @@
         <string>Gyrometer</string>
        </property>
        <property name="alignment">
-        <set>Qt::AlignCenter</set>
+        <set>Qt::AlignmentFlag::AlignCenter</set>
        </property>
        <layout class="QGridLayout" name="gridLayout">
         <item row="0" column="0">
          <spacer name="horizontalSpacer_2">
           <property name="orientation">
-           <enum>Qt::Horizontal</enum>
+           <enum>Qt::Orientation::Horizontal</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
@@ -68,20 +68,20 @@
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap resource="Resources.qrc">:/Icons/x.svg</pixmap>
+           <pixmap>:/Icons/x.svg</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
          </widget>
         </item>
         <item row="0" column="2">
          <spacer name="horizontalSpacer">
           <property name="orientation">
-           <enum>Qt::Horizontal</enum>
+           <enum>Qt::Orientation::Horizontal</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
@@ -131,7 +131,7 @@
         <string>Accelerometer</string>
        </property>
        <property name="alignment">
-        <set>Qt::AlignCenter</set>
+        <set>Qt::AlignmentFlag::AlignCenter</set>
        </property>
        <layout class="QGridLayout" name="gridLayout_2">
         <item row="1" column="1">
@@ -162,7 +162,7 @@
         <item row="0" column="0">
          <spacer name="horizontalSpacer_3">
           <property name="orientation">
-           <enum>Qt::Horizontal</enum>
+           <enum>Qt::Orientation::Horizontal</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
@@ -175,7 +175,7 @@
         <item row="0" column="2">
          <spacer name="horizontalSpacer_4">
           <property name="orientation">
-           <enum>Qt::Horizontal</enum>
+           <enum>Qt::Orientation::Horizontal</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
@@ -209,13 +209,13 @@
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap resource="Resources.qrc">:/Icons/x.svg</pixmap>
+           <pixmap>:/Icons/x.svg</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -234,7 +234,7 @@
         <string>Magnetometer</string>
        </property>
        <property name="alignment">
-        <set>Qt::AlignCenter</set>
+        <set>Qt::AlignmentFlag::AlignCenter</set>
        </property>
        <layout class="QGridLayout" name="gridLayout_3">
         <item row="0" column="1">
@@ -261,20 +261,20 @@
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap resource="Resources.qrc">:/Icons/x.svg</pixmap>
+           <pixmap>:/Icons/x.svg</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
          </widget>
         </item>
         <item row="0" column="0">
          <spacer name="horizontalSpacer_5">
           <property name="orientation">
-           <enum>Qt::Horizontal</enum>
+           <enum>Qt::Orientation::Horizontal</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
@@ -287,7 +287,7 @@
         <item row="0" column="2">
          <spacer name="horizontalSpacer_6">
           <property name="orientation">
-           <enum>Qt::Horizontal</enum>
+           <enum>Qt::Orientation::Horizontal</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
@@ -334,16 +334,16 @@
         </sizepolicy>
        </property>
        <property name="title">
-        <string>System Staus</string>
+        <string>System Status</string>
        </property>
        <property name="alignment">
-        <set>Qt::AlignCenter</set>
+        <set>Qt::AlignmentFlag::AlignCenter</set>
        </property>
        <layout class="QGridLayout" name="gridLayout_4">
         <item row="0" column="0">
          <spacer name="horizontalSpacer_7">
           <property name="orientation">
-           <enum>Qt::Horizontal</enum>
+           <enum>Qt::Orientation::Horizontal</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
@@ -377,20 +377,20 @@
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap resource="Resources.qrc">:/Icons/x.svg</pixmap>
+           <pixmap>:/Icons/x.svg</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
          </widget>
         </item>
         <item row="0" column="2">
          <spacer name="horizontalSpacer_8">
           <property name="orientation">
-           <enum>Qt::Horizontal</enum>
+           <enum>Qt::Orientation::Horizontal</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
@@ -433,23 +433,23 @@
       </sizepolicy>
      </property>
      <property name="frameShape">
-      <enum>QFrame::Panel</enum>
+      <enum>QFrame::Shape::Panel</enum>
      </property>
      <property name="frameShadow">
-      <enum>QFrame::Sunken</enum>
+      <enum>QFrame::Shadow::Sunken</enum>
      </property>
      <property name="text">
-      <string>TextLabel</string>
+      <string notr="true">TextLabel</string>
      </property>
     </widget>
    </item>
    <item>
     <widget class="QDialogButtonBox" name="buttonBox">
      <property name="orientation">
-      <enum>Qt::Horizontal</enum>
+      <enum>Qt::Orientation::Horizontal</enum>
      </property>
      <property name="standardButtons">
-      <set>QDialogButtonBox::Close</set>
+      <set>QDialogButtonBox::StandardButton::Close</set>
      </property>
     </widget>
    </item>
@@ -463,9 +463,7 @@
    <container>1</container>
   </customwidget>
  </customwidgets>
- <resources>
-  <include location="Resources.qrc"/>
- </resources>
+ <resources/>
  <connections>
   <connection>
    <sender>buttonBox</sender>
