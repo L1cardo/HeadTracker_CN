@@ -129,8 +129,6 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->spnA2Off, &QSpinBox::valueChanged, this, &MainWindow::updateFromUI);
     connect(ui->spnA3Gain, &QDoubleSpinBox::valueChanged, this, &MainWindow::updateFromUI);
     connect(ui->spnA3Off, &QSpinBox::valueChanged, this, &MainWindow::updateFromUI);
-    connect(ui->spnA4Gain, &QDoubleSpinBox::valueChanged, this, &MainWindow::updateFromUI);
-    connect(ui->spnA4Off, &QSpinBox::valueChanged, this, &MainWindow::updateFromUI);
     connect(ui->spnRotX, &QSpinBox::valueChanged, this, &MainWindow::updateFromUI);
     connect(ui->spnRotY, &QSpinBox::valueChanged, this, &MainWindow::updateFromUI);
     connect(ui->spnRotZ, &QSpinBox::valueChanged, this, &MainWindow::updateFromUI);
@@ -176,7 +174,6 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->cmbA1Ch, &QComboBox::currentIndexChanged, this, &MainWindow::updateFromUI);
     connect(ui->cmbA2Ch, &QComboBox::currentIndexChanged, this, &MainWindow::updateFromUI);
     connect(ui->cmbA3Ch, &QComboBox::currentIndexChanged, this, &MainWindow::updateFromUI);
-    connect(ui->cmbA4Ch, &QComboBox::currentIndexChanged, this, &MainWindow::updateFromUI);
     connect(ui->cmbAuxFn0, &QComboBox::currentIndexChanged, this, &MainWindow::updateFromUI);
     connect(ui->cmbAuxFn1, &QComboBox::currentIndexChanged, this, &MainWindow::updateFromUI);
     connect(ui->cmbAuxFn2, &QComboBox::currentIndexChanged, this, &MainWindow::updateFromUI);
@@ -576,8 +573,6 @@ void MainWindow::updateToUI()
     ui->spnA2Off->setValue(trkset.getAn2Off());
     ui->spnA3Gain->setValue(trkset.getAn3Gain());
     ui->spnA3Off->setValue(trkset.getAn3Off());
-    ui->spnA4Gain->setValue(trkset.getAn4Gain());
-    ui->spnA4Off->setValue(trkset.getAn4Off());
     ui->spnSBUSRate->setValue(trkset.getSbusTxRate());
     ui->spnCRSFRate->setValue(trkset.getCrsfTxRate());
 
@@ -605,7 +600,6 @@ void MainWindow::updateToUI()
     int a1Ch = trkset.getAn1Ch();
     int a2Ch = trkset.getAn2Ch();
     int a3Ch = trkset.getAn3Ch();
-    int a4Ch = trkset.getAn4Ch();
     int auxF0Ch = trkset.getAux0Ch();
     int auxF1Ch = trkset.getAux1Ch();
     int auxF2Ch = trkset.getAux2Ch();
@@ -628,7 +622,6 @@ void MainWindow::updateToUI()
     ui->cmbA1Ch->setCurrentIndex(a1Ch==-1?0:a1Ch);
     ui->cmbA2Ch->setCurrentIndex(a2Ch==-1?0:a2Ch);
     ui->cmbA3Ch->setCurrentIndex(a3Ch==-1?0:a3Ch);
-    ui->cmbA4Ch->setCurrentIndex(a4Ch==-1?0:a4Ch);
     // Aux Funcs
     ui->cmbAuxFn0Ch->setCurrentIndex(auxF0Ch==-1?0:auxF0Ch);
     ui->cmbAuxFn1Ch->setCurrentIndex(auxF1Ch==-1?0:auxF1Ch);
@@ -744,18 +737,14 @@ void MainWindow::updateFromUI()
     trkset.setAn2Off(ui->spnA2Off->value());
     trkset.setAn3Gain(ui->spnA3Gain->value());
     trkset.setAn3Off(ui->spnA3Off->value());
-    trkset.setAn4Gain(ui->spnA4Gain->value());
-    trkset.setAn4Off(ui->spnA4Off->value());
     int an0Ch = ui->cmbA0Ch->currentIndex();
     int an1Ch = ui->cmbA1Ch->currentIndex();
     int an2Ch = ui->cmbA2Ch->currentIndex();
     int an3Ch = ui->cmbA3Ch->currentIndex();
-    int an4Ch = ui->cmbA4Ch->currentIndex();
     trkset.setAn0Ch(an0Ch==0?-1:an0Ch);
     trkset.setAn1Ch(an1Ch==0?-1:an1Ch);
     trkset.setAn2Ch(an2Ch==0?-1:an2Ch);
     trkset.setAn3Ch(an3Ch==0?-1:an3Ch);
-    trkset.setAn4Ch(an4Ch==0?-1:an4Ch);
 
     // Aux
     int auxF0Ch = ui->cmbAuxFn0Ch->currentIndex();
@@ -1429,19 +1418,19 @@ void MainWindow::boardDiscovered()
     int rmajver = trkset.fwVersion().remove(1,1).left(2).toInt();    // Major Version 1.1x == 11
 
     // Firmware is too old
-    if(lmajver > rmajver) {
-        msgbox->setText(tr("The firmware on the board is too old. Upload a ") + QString::number((float)lmajver/10,'f',1) + "x version of firmware for this GUI");
-        msgbox->setWindowTitle(tr("Firmware Version Mismatch"));
-        msgbox->show();
-        serialDisconnect();
+    // if(lmajver > rmajver) {
+    //     msgbox->setText(tr("The firmware on the board is too old. Upload a ") + QString::number((float)lmajver/10,'f',1) + "x version of firmware for this GUI");
+    //     msgbox->setWindowTitle(tr("Firmware Version Mismatch"));
+    //     msgbox->show();
+    //     serialDisconnect();
 
-    // Firmware is too new
-    } else if (lmajver < rmajver) {
-        msgbox->setText(tr("Firmware is newer than supported by this application\nDownload the GUI v") + QString::number((float)rmajver/10,'f',1) +" from www.github.com/dlktdr/headtracker");
-        msgbox->setWindowTitle(tr("Firmware Version Mismatch"));
-        msgbox->show();
-        serialDisconnect();
-    }
+    // // Firmware is too new
+    // } else if (lmajver < rmajver) {
+    //     msgbox->setText(tr("Firmware is newer than supported by this application\nDownload the GUI v") + QString::number((float)rmajver/10,'f',1) +" from www.github.com/dlktdr/headtracker");
+    //     msgbox->setWindowTitle(tr("Firmware Version Mismatch"));
+    //     msgbox->show();
+    //     serialDisconnect();
+    // }
     if(channelViewerOpen) {
         channelviewer->show();
     }
