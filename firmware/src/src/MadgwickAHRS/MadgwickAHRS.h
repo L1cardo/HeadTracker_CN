@@ -18,7 +18,7 @@
 
 #include <math.h>
 #include <string.h>
-#include <zephyr.h>
+#include <zephyr/kernel.h>
 
 #include "defines.h"
 
@@ -42,10 +42,9 @@ class Madgwick
   float pitch;
   float yaw;
   float deltat;
-  float lastUpdate;
+  uint32_t lastUpdate;
   char anglesComputed;
   float _copyQuat[4];  // copy buffer to protect the quaternion values since getters!=setters
-  float Now;
   void computeAngles();
   void align(float ax, float ay, float az, float bx, float by, float bz);
   void combine(float p0, float p1, float p2, float p3);
@@ -65,17 +64,17 @@ class Madgwick
   float getRoll()
   {
     if (!anglesComputed) computeAngles();
-    return roll * 57.29578f;
+    return roll * RAD_TO_DEG;
   }
   float getPitch()
   {
     if (!anglesComputed) computeAngles();
-    return pitch * 57.29578f;
+    return pitch * RAD_TO_DEG;
   }
   float getYaw()
   {
     if (!anglesComputed) computeAngles();
-    return yaw * 57.29578f;
+    return yaw * RAD_TO_DEG;
   }
   float getRollRadians()
   {
@@ -101,10 +100,10 @@ class Madgwick
 
   float deltatUpdate()
   {
-    Now = micros64();
-    deltat = ((Now - lastUpdate) /
-              1000000.0f);  // set integration time by time elapsed since last filter update
-    lastUpdate = Now;
+    uint32_t now = micros();
+    uint32_t dt = now - lastUpdate;
+    lastUpdate = now;
+    deltat = ((float)(dt) / 1000000.0f);
     return deltat;
   }
 };

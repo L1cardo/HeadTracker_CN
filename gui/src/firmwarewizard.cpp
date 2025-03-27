@@ -175,8 +175,7 @@ void FirmwareWizard::startProgramming()
     if(boardType == BRD_NANO33BLE) {
         arguments.prepend(QString("--port=%1").arg(lastFoundPort));
         addToLog(tr("Starting: ") + programmercommand + " " + arguments.join(" "));
-
-        programmer->start(programmercommand, arguments);
+        programmer->start(QCoreApplication::applicationDirPath() + "/" + programmercommand, arguments);
     } else if (boardType == BRD_ARDUINONANO) {
         arguments.prepend(QString ("-P" + lastFoundPort));
         addToLog(tr("Starting: ") + programmercommand + " " + arguments.join(" "));
@@ -505,9 +504,9 @@ void FirmwareWizard::programmerSTDOUTReady()
     // Match one or more digits and a %
     QRegularExpressionMatch match = re.match(str);
     if (match.hasMatch()) {
-        QString strPcnt = match.captured(0);
-        strPcnt.chop(1);
-        ui->progressBar->setValue(strPcnt.toInt());
+      QString strPcnt = match.captured(0);
+      strPcnt.chop(1);
+      ui->progressBar->setValue(strPcnt.toInt());
     }
 
     addToLog(ba);

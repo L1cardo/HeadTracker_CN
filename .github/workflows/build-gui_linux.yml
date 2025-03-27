@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - v2.2x
     paths:
       - '.github/workflows/build-gui_linux.yml'
       - 'gui/src/**'
@@ -25,7 +26,6 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v4
         with:
-          submodules: recursive
           fetch-depth: 0
 
       - name: Install Qt
@@ -34,8 +34,8 @@ jobs:
           aqtversion: '==3.1.*'
           version: '6.4.1'
           target: 'desktop'
-          install-deps: 'true'
           modules: 'qtserialport'
+          install-deps: 'true'
 
       - name: Build
         working-directory: ${{github.workspace}}
@@ -73,9 +73,15 @@ jobs:
 #        if: ${{ failure() }}
 #        timeout-minutes: 15
 
-      - name: Archive production artifacts
-        uses: actions/upload-artifact@v4
+      # Runs a set of commands using the runners shell
+      - name: Package Linux GUI
+        uses: 'actions/upload-artifact@v4'
+        id: artifact-upload-step
         with:
-          name: HeadTracker_Linux_AppImage
+          name: headtracker_linux_appimage
           path: ${{github.workspace}}/HeadTracker*.AppImage
           retention-days: 90
+          if-no-files-found: error
+
+      - name: Output artifact ID
+        run:  echo 'Artifact ID is ${{ steps.artifact-upload-step.outputs.artifact-id }}'

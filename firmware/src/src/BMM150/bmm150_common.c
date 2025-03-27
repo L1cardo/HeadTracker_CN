@@ -8,10 +8,12 @@
 #include "bmm150_common.h"
 
 
+#include <zephyr/logging/log.h>
+#include <zephyr/drivers/i2c.h>
 #include <stdio.h>
-#include "drivers/i2c.h"
 #include "bmm150.h"
-#include "log.h"
+
+LOG_MODULE_REGISTER(bmm150);
 
 
 /******************************************************************************/
@@ -56,7 +58,7 @@ void bmm150_user_delay_us(uint32_t period_us, void *intf_ptr)
 int8_t bmm150_user_i2c_reg_write(uint8_t reg_addr, const uint8_t *reg_data, uint32_t length,
                                  void *intf_ptr)
 {
-  const struct device *i2c_dev = DEVICE_DT_GET(DT_NODELABEL(i2c1));
+  const struct device *i2c_dev = DEVICE_DT_GET(DT_ALIAS(i2csensor));
   if (!i2c_dev) {
     return -1;
   }
@@ -71,13 +73,14 @@ int8_t bmm150_user_i2c_reg_write(uint8_t reg_addr, const uint8_t *reg_data, uint
 int8_t bmm150_user_i2c_reg_read(uint8_t reg_addr, uint8_t *reg_data, uint32_t length,
                                 void *intf_ptr)
 {
-  const struct device *i2c_dev = DEVICE_DT_GET(DT_NODELABEL(i2c1));
+  const struct device *i2c_dev = DEVICE_DT_GET(DT_ALIAS(i2csensor));
   if (!i2c_dev) {
     return -1;
   }
 
   uint8_t dev_addr = *(uint8_t *)intf_ptr;
-  return i2c_burst_read(i2c_dev, dev_addr, reg_addr, reg_data, length);
+  i2c_burst_read(i2c_dev, dev_addr, reg_addr, reg_data, length);
+  return 0;
 }
 
 /*!
@@ -115,7 +118,7 @@ int8_t bmm150_interface_selection(struct bmm150_dev *dev)
 
     /* Bus configuration : I2C */
     if (dev->intf == BMM150_I2C_INTF) {
-      printk("I2C Interface \n");
+      LOG_DBG("I2C Interface \n");
 
       /* To initialize the user I2C function */
       bmm150_user_i2c_init();
@@ -126,7 +129,7 @@ int8_t bmm150_interface_selection(struct bmm150_dev *dev)
     }
     /* Bus configuration : SPI */
     else if (dev->intf == BMM150_SPI_INTF) {
-      printk("SPI Interface \n");
+      LOG_DBG("SPI Interface \n");
 
       /* To initialize the user SPI function */
       bmm150_user_spi_init();
@@ -154,39 +157,39 @@ int8_t bmm150_interface_selection(struct bmm150_dev *dev)
 void bmm150_error_codes_print_result(const char api_name[], int8_t rslt)
 {
   if (rslt != BMM150_OK) {
-    printk("%s\t", api_name);
+    LOG_ERR("%s\t", api_name);
 
     switch (rslt) {
       case BMM150_E_NULL_PTR:
-        printk("Error [%d] : Null pointer error.", rslt);
-        printk(
+        LOG_ERR("Error [%d] : Null pointer error.", rslt);
+        LOG_ERR(
             "It occurs when the user tries to assign value (not address) to a pointer, which has "
             "been initialized to NULL.\r\n");
         break;
 
       case BMM150_E_COM_FAIL:
-        printk("Error [%d] : Communication failure error.", rslt);
-        printk(
+        LOG_ERR("Error [%d] : Communication failure error.", rslt);
+        LOG_ERR(
             "It occurs due to read/write operation failure and also due to power failure during "
             "communication\r\n");
         break;
 
       case BMM150_E_DEV_NOT_FOUND:
-        printk(
+        LOG_ERR(
             "Error [%d] : Device not found error. It occurs when the device chip id is incorrectly "
             "read\r\n",
             rslt);
         break;
 
       case BMM150_E_INVALID_CONFIG:
-        printk("Error [%d] : Invalid sensor configuration.", rslt);
-        printk(
+        LOG_ERR("Error [%d] : Invalid sensor configuration.", rslt);
+        LOG_ERR(
             " It occurs when there is a mismatch in the requested feature with the available "
             "one\r\n");
         break;
 
       default:
-        printk("Error [%d] : Unknown error code\r\n", rslt);
+        LOG_ERR("Error [%d] : Unknown error code\r\n", rslt);
         break;
     }
   }

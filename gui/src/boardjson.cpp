@@ -8,11 +8,14 @@
 BoardJson::BoardJson(TrackerSettings *ts)
 {
     trkset = ts;
+    connect(trkset,SIGNAL(requestedDataItemChanged()),this,SLOT(reqDataItemChanged()));
     bleCalibratorDialog = new CalibrateBLE(trkset);
 
     connect(&imheretimout,SIGNAL(timeout()),this,SLOT(ihTimeout()));
     connect(&rxParamsTimer,SIGNAL(timeout()),this,SLOT(rxParamsTimeout()));
+    connect(&rxFeaturesTimer,SIGNAL(timeout()),this,SLOT(rxFeaturesTimeout()));
     rxParamsTimer.setSingleShot(true);
+    rxFeaturesTimer.setSingleShot(true);
     connect(bleCalibratorDialog,&CalibrateBLE::calibrationSave,this,&BoardJson::calibrationComplete);
     connect(bleCalibratorDialog,&CalibrateBLE::calibrationCancel,this, &BoardJson::calibrationCancel);
 
@@ -22,6 +25,16 @@ BoardJson::BoardJson(TrackerSettings *ts)
 
     // BLE calibrator needs to be able to save the magnetometer selection
     connect(bleCalibratorDialog, &CalibrateBLE::saveToRam, this, &BoardJson::saveToRAM);
+    calmsgshowed = false;
+    savedToNVM=true;
+    savedToRAM=true;
+    paramTXErrorSent=false;
+    paramRXErrorSent=false;
+    jsonwaitingack =0;
+    rxparamfaults=0;
+    featuresTXErrorSent=false;
+    featuresRXErrorSent=false;
+    rxfeaturesfaults=0;
 }
 
 BoardJson::~BoardJson()
@@ -62,17 +75,18 @@ void BoardJson::dataIn(QByteArray &data)
         nakError();
 
         // Other data sent, show the user
-    } else {
-        emit addToLog(data + "\n");
+    } else if(data.left(1)[0] == (char)0x01 && data.right(1)[0] == (char)0x03) { // Log information
+        QByteArray unescape = unescapeLog(data.mid(1,data.length()-2));
+        QString logd= QString::fromLatin1(unescape);
+        if(logd.length()) {
+            emit addToLog(logd + "\n");
+        }
     }
 
 }
 
 QByteArray BoardJson::dataout()
 {
-    // Don't allow serial access if not allowed
-    // prevents two boards talking at the same time
-
     // Return the serial data buffer
     QByteArray sdo = serialDataOut;
     serialDataOut.clear();
@@ -91,6 +105,7 @@ void BoardJson::saveToRAM()
     d2s.remove("axisremap");
     d2s.remove("axissign");
     d2s.remove("Hard");
+    d2s.remove("Git");
     d2s.remove("Vers");
     // If no changes, return
     if(d2s.count() == 0)
@@ -126,12 +141,10 @@ void BoardJson::erase()
   sendSerialJSON("Erase");
 }
 
-
 // Parameters requested from the board
 
 void BoardJson::requestParameters()
 {
-//    qDebug() << "JSON Data" << jsonqueue.length();
     if(rxparamfaults == 0) {
         emit paramReceiveStart();
     } else if (rxparamfaults > 3) {
@@ -148,6 +161,25 @@ void BoardJson::requestParameters()
     rxParamsTimer.start(800); // Start a timer, if we haven't got them, try again
 }
 
+// Features requested from the board
+void BoardJson::requestFeatures()
+{
+    if(rxfeaturesfaults == 0) {
+        emit featuresReceiveStart();
+    } else if (rxfeaturesfaults > 3) {
+        if(!featuresRXErrorSent) {
+            emit featuresReceiveFailure(1);
+            featuresRXErrorSent = true;
+        }
+        return;
+    }
+
+    sendSerialJSON("FE"); // Get the Settings
+
+    rxFeaturesTimer.stop();
+    rxFeaturesTimer.start(800); // Start a timer, if we haven't got them, try again
+}
+
 // Timer if parameters are not received in time
 void BoardJson::rxParamsTimeout()
 {
@@ -159,6 +191,20 @@ void BoardJson::rxParamsTimeout()
     } else {
         rxparamfaults++;
         requestParameters();
+    }
+}
+
+// Timer if features are not received in time
+void BoardJson::rxFeaturesTimeout()
+{
+    // Don't increment counter if data hasn't been sent yet
+    if(serialDataOut.size() != 0) {
+        rxFeaturesTimer.stop();
+        rxFeaturesTimer.start(500); // Start a timer, if we haven't got them, try again
+        return;
+    } else {
+        rxfeaturesfaults++;
+        requestFeatures();
     }
 }
 
@@ -194,6 +240,7 @@ void BoardJson::calibrationComplete()
     // Only request the ones that were active on calibration start
     trkset->setDataItemSend(cursendingdataitems);
     saveToRAM();
+    emit calibrationSuccess();
 }
 
 // Add/Remove data items to be received from the board
@@ -247,32 +294,22 @@ void BoardJson::stopData()
     sendSerialJSON("D--"); // Stop all Data
 }
 
-void BoardJson::allowAccessChanged(bool acc)
+void BoardJson::disconnected()
 {
-    // Access was just allowed/disallowed to this class
-    // reset everything
+    bleCalibratorDialog->hide();
     calmsgshowed = false;
     savedToNVM=true;
     savedToRAM=true;
     paramTXErrorSent=false;
     paramRXErrorSent=false;
-    serialDataOut.clear();
     jsonwaitingack =0;
     rxparamfaults=0;
     jsonqueue.clear();
     lastjson.clear();
     imheretimout.stop();
-    updatesettingstmr.stop();
-    rxParamsTimer.stop();    
-    if(acc)
-        connect(trkset,SIGNAL(requestedDataItemChanged()),this,SLOT(reqDataItemChanged()));
-    else
-        disconnect(trkset, SIGNAL(requestedDataItemChanged()), 0, 0);
-}
-
-void BoardJson::disconnected()
-{
-    bleCalibratorDialog->hide();
+    updatesettingstmr.stop();    
+    rxParamsTimer.stop();
+    rxFeaturesTimer.stop();
 }
 
 void BoardJson::resetCenter()
@@ -322,17 +359,30 @@ void BoardJson::parseIncomingJSON(const QVariantMap &map)
         rxparamfaults = 0;
         trkset->setAllData(map);
         emit paramReceiveComplete();
-        // Remind user to calibrate, if mag isn't disabled
-        if(!map["dismag"].toBool()) {
-            if(fabs(trkset->getMagXOff()) < 0.0001 &&
-               fabs(trkset->getMagYOff()) < 0.0001 &&
-               fabs(trkset->getMagZOff()) < 0.0001) {
-                if(calmsgshowed == false) {
-                    emit needsCalibration();
-                    calmsgshowed = true;
-                }
+        // Remind user to calibrate
+        if((fabs(trkset->getAccXOff()) < 0.0001 &&
+            fabs(trkset->getAccXOff()) < 0.0001 &&
+            fabs(trkset->getAccXOff()) < 0.0001) ||
+            (map["dismag"].toBool() == false &&
+            fabs(trkset->getMagXOff()) < 0.0001 &&
+            fabs(trkset->getMagYOff()) < 0.0001 &&
+            fabs(trkset->getMagZOff()) < 0.0001)) {
+            if(calmsgshowed == false) {
+                emit needsCalibration();
+                calmsgshowed = true;
             }
         }
+    // Board Features
+    } else if(map["Cmd"].toString() == "FE") {
+        _features = map["FEAT"].toStringList();
+        trkset->setFeatures(_features);
+        _pins = map["PINS"].toMap();
+
+        qDebug() << "PINS" << _pins;
+
+        rxFeaturesTimer.stop(); // Stop error timer
+        rxfeaturesfaults = 0;
+        emit featuresReceiveComplete();
 
     // Data sent, Update the graph / servo sliders / calibration
     } else if (map["Cmd"].toString() == "Data") {
@@ -393,7 +443,7 @@ void BoardJson::parseIncomingJSON(const QVariantMap &map)
         trkset->setHardware(map["Vers"].toString(),
                             map["Hard"].toString(),
                             map["Git"].toString());
-        emit boardDiscovered(this);
+        emit boardDiscovered();
     }
 }
 
@@ -417,6 +467,20 @@ uint16_t BoardJson::escapeCRC(uint16_t crc)
     return (uint16_t)crclow | ((uint16_t)crchigh << 8);
 }
 
+QByteArray BoardJson::unescapeLog(QByteArray data)
+{
+    QByteArray rval;
+    for(int i=0; i < data.length(); i++) {
+        if(data[i] == 0x1B) {
+            if(i+1 < data.length())
+                rval.append(data[i+1] ^ 0xFF);
+            i++;
+        } else {
+            rval.append(data[i]);
+        }
+    }
+    return rval;
+}
 void BoardJson::nakError()
 {
     // If too many faults, disconnect.

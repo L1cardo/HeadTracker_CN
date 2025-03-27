@@ -30,9 +30,12 @@
 #include "LSM9DS1.h"
 
 #include <math.h>
+#include <zephyr/logging/log.h>
 
 #include "defines.h"
-#include "log.h"
+
+
+LOG_MODULE_REGISTER(lsm9ds1);
 
 #define LSM9DS1_ADDRESS 0x6b
 
@@ -60,9 +63,9 @@ LSM9DS1Class::~LSM9DS1Class() {}
 
 int LSM9DS1Class::begin()
 {
-  i2c_dev = DEVICE_DT_GET(DT_NODELABEL(i2c1));
+  i2c_dev = DEVICE_DT_GET(DT_ALIAS(i2csensor));
   if (!i2c_dev) {
-    LOGE("Could not get device binding for I2C");
+    LOG_ERR("Could not get device binding for I2C");
     return 0;
   }
 
@@ -74,7 +77,7 @@ int LSM9DS1Class::begin()
   writeRegister(LSM9DS1_ADDRESS, LSM9DS1_CTRL_REG8, 0x05);
   writeRegister(LSM9DS1_ADDRESS_M, LSM9DS1_CTRL_REG2_M, 0x0c);
 
-  rt_sleep_ms(10);
+  k_msleep(10);
 
   if (readRegister(LSM9DS1_ADDRESS, LSM9DS1_WHO_AM_I) != 0x68) {
     end();
@@ -150,7 +153,7 @@ int LSM9DS1Class::readRawAccel(float& x, float& y, float& z)  // return raw unca
     return 0;
   }
   // See releasenotes   	read =	Unit * Slope * (PFS / 32786 * Data - Offset )
-  float scale = getAccelFS() / 32768.0;
+  float scale = getAccelFS() / 32768.0f;
   x = scale * data[0];
   y = scale * data[1];
   z = scale * data[2];
@@ -293,7 +296,7 @@ int LSM9DS1Class::readRawGyro(float& x, float& y,
     z = NAN;
     return 0;
   }
-  float scale = getGyroFS() / 32768.0;
+  float scale = getGyroFS() / 32768.0f;
   x = scale * data[0];
   y = scale * data[1];
   z = scale * data[2];
@@ -440,7 +443,7 @@ int LSM9DS1Class::readRawMagnet(float& x, float& y, float& z)
     z = NAN;
     return 0;
   }
-  float scale = getMagnetFS() / 32768.0;
+  float scale = getMagnetFS() / 32768.0f;
   x = scale * data[0];
   y = scale * data[1];
   z = scale * data[2];
@@ -541,9 +544,9 @@ void LSM9DS1Class::measureODRcombined()  // Combined measurement for faster star
     }
   }
 
-  accelODR = (1000000.0 * float(countA) / float(lastEventTimeA - startA));
+  accelODR = (1000000.0f * float(countA) / float(lastEventTimeA - startA));
   gyroODR = accelODR;
-  magnetODR = (1000000.0 * float(countM) / float(lastEventTimeM - startM));
+  magnetODR = (1000000.0f * float(countM) / float(lastEventTimeM - startM));
 }
 
 float LSM9DS1Class::measureAccelGyroODR()
@@ -565,7 +568,7 @@ float LSM9DS1Class::measureAccelGyroODR()
   }
 
   if (fifoEna) setContinuousMode();
-  return (1000000.0 * float(count) / float(lastEventTime - start));
+  return (1000000.0f * float(count) / float(lastEventTime - start));
 }
 
 float LSM9DS1Class::measureMagnetODR(unsigned long duration)
@@ -584,7 +587,7 @@ float LSM9DS1Class::measureMagnetODR(unsigned long duration)
     }
   }
 
-  return (1000000.0 * float(count) / float(lastEventTime - start));
+  return (1000000.0f * float(count) / float(lastEventTime - start));
 }
 
 int LSM9DS1Class::readRegister(uint8_t slaveAddress, uint8_t address)

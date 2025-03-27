@@ -365,8 +365,8 @@
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="261"/>
-        <source>Bluetooth Mode (0-Off, 1- Head, 2-Receive, 3-Scanner, BT_HID_Joystick)</source>
-        <translation>蓝牙模式（0-关闭、1-头部、2-接收、3-扫描，蓝牙 HID 控制器）</translation>
+        <source>Bluetooth Mode (-1=Uninit, 0-Disable, 1-Head, 2-Receive, 3-Scanner, 4-Gamepad)</source>
+        <translation>蓝牙模式（-1=未初始化，0-关闭，1-头部，2-接收，3-扫描，4-游戏控制）</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="262"/>
@@ -426,93 +426,93 @@
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="274"/>
-        <source>Raw Sensor Mag X</source>
-        <translation>原始传感器 磁力计 X</translation>
+        <source>Raw Sensor Mag X(uT)</source>
+        <translation>原始传感器 磁力计 X(uT)</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="275"/>
-        <source>Raw Sensor Mag Y</source>
-        <translation>原始传感器 磁力计 Y</translation>
+        <source>Raw Sensor Mag Y(uT)</source>
+        <translation>原始传感器 磁力计 Y(uT)</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="276"/>
-        <source>Raw Sensor Mag Z</source>
-        <translation>原始传感器 磁力计 Z</translation>
+        <source>Raw Sensor Mag Z(uT)</source>
+        <translation>原始传感器 磁力计 Z(uT)</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="277"/>
-        <source>Raw Sensor Gyro X</source>
-        <translation>原始传感器 陀螺仪 X</translation>
+        <source>Raw Sensor Gyro X(dps)</source>
+        <translation>原始传感器 陀螺仪 X(dps)</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="278"/>
-        <source>Raw Sensor Gyro Y</source>
-        <translation>原始传感器 陀螺仪 Y</translation>
+        <source>Raw Sensor Gyro Y(dps)</source>
+        <translation>原始传感器 陀螺仪 Y(dps)</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="279"/>
-        <source>Raw Sensor Gyro Z</source>
-        <translation>原始传感器 陀螺仪 Z</translation>
+        <source>Raw Sensor Gyro Z(dps)</source>
+        <translation>原始传感器 陀螺仪 Z(dps)</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="280"/>
-        <source>Raw Sensor Accel X</source>
-        <translation>原始传感器 加速度计 X</translation>
+        <source>Raw Sensor Accel X(g)</source>
+        <translation>原始传感器 加速度计 X(g)</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="281"/>
-        <source>Raw Sensor Accel Y</source>
-        <translation>原始传感器 加速度计 Y</translation>
+        <source>Raw Sensor Accel Y(g)</source>
+        <translation>原始传感器 加速度计 Y(g)</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="282"/>
-        <source>Raw Sensor Accel Z</source>
-        <translation>原始传感器 加速度计 Z</translation>
+        <source>Raw Sensor Accel Z(g)</source>
+        <translation>原始传感器 加速度计 Z(g)</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="283"/>
-        <source>Calibrated Mag X</source>
-        <translation>已校准的 磁力计 X</translation>
+        <source>Calibrated Mag X(uT)</source>
+        <translation>已校准的 磁力计 X(uT)</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="284"/>
-        <source>Calibrated Mag Y</source>
-        <translation>已校准的 磁力计 Y</translation>
+        <source>Calibrated Mag Y(uT)</source>
+        <translation>已校准的 磁力计 Y(uT)</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="285"/>
-        <source>Calibrated Mag Z</source>
-        <translation>已校准的 磁力计 Z</translation>
+        <source>Calibrated Mag Z(uT)</source>
+        <translation>已校准的 磁力计 Z(uT)</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="286"/>
-        <source>Calibrated Gyro X</source>
-        <translation>已校准的 陀螺仪 X</translation>
+        <source>Calibrated Gyro X(dps)</source>
+        <translation>已校准的 陀螺仪 X(dps)</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="287"/>
-        <source>Calibrated Gyro Y</source>
-        <translation>已校准的 陀螺仪 Y</translation>
+        <source>Calibrated Gyro Y(dps)</source>
+        <translation>已校准的 陀螺仪 Y(dps)</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="288"/>
-        <source>Calibrated Gyro Z</source>
-        <translation>已校准的 陀螺仪 Z</translation>
+        <source>Calibrated Gyro Z(dps)</source>
+        <translation>已校准的 陀螺仪 Z(dps)</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="289"/>
-        <source>Calibrated Accel X</source>
-        <translation>已校准的 加速度计 X</translation>
+        <source>Calibrated Accel X(g)</source>
+        <translation>已校准的 加速度计 X(g)</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="290"/>
-        <source>Calibrated Accel Y</source>
-        <translation>已校准的 加速度计 Y</translation>
+        <source>Calibrated Accel Y(g)</source>
+        <translation>已校准的 加速度计 Y(g)</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="291"/>
-        <source>Calibrated Accel Z</source>
-        <translation>已校准的 加速度计 Z</translation>
+        <source>Calibrated Accel Z(g)</source>
+        <translation>已校准的 加速度计 Z(g)</translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="292"/>
@@ -2794,7 +2794,7 @@ Please check COM port or flash proper code</source>
         <location filename="../mainwindow.cpp" line="1114"/>
         <source>Was unable to determine the board type
 
-Have you written the firmware to the board yet?</source>
+Have you written firmware to the board yet?</source>
         <translation>无法确定电路板类型
 
 您是否已将固件写入电路板？</translation>

@@ -26,10 +26,13 @@
 
 #include <stdbool.h>
 #include <stdint.h>
+#include <zephyr/logging/log.h>
 
 #include <math.h>
 
 #include "qmc5883.h"
+
+LOG_MODULE_REGISTER(qmc5883);
 
 #define QMC5883L_MAG_I2C_ADDRESS     0x0D
 
@@ -67,12 +70,12 @@
 
 static bool i2c_writeBytes(uint8_t devAddr, uint8_t regAddr, uint8_t length, uint8_t *data)
 {
-  const struct device* i2c_dev = device_get_binding(I2C_DEV);
+  const struct device* i2c_dev = DEVICE_DT_GET(DT_ALIAS(i2csensor));
   if (!i2c_dev) {
-    LOGE("Could not get device binding for I2C");
+    LOG_ERR("Could not get device binding for I2C");
   }
   if(length > 49) {
-    LOGE("I2C: Buffer too small");
+    LOG_ERR("I2C: Buffer too small");
     return false;
   }
 
@@ -84,9 +87,9 @@ static bool i2c_writeBytes(uint8_t devAddr, uint8_t regAddr, uint8_t length, uin
 
 static bool i2c_readBytes(uint8_t devAddr, uint8_t regAddr, uint8_t length, uint8_t *data)
 {
-  const struct device* i2c_dev = device_get_binding(I2C_DEV);
+  const struct device* i2c_dev = DEVICE_DT_GET(DT_ALIAS(i2csensor));
   if (!i2c_dev) {
-    LOGE("Could not get device binding for I2C");
+    LOG_ERR("Could not get device binding for I2C");
     return -1;
   }
 
@@ -131,9 +134,9 @@ bool qmc5883Read(float mag[3])
     mag[1] = (int16_t)(buf[3] << 8 | buf[2]);
     mag[2] = (int16_t)(buf[5] << 8 | buf[4]);
 
-    mag[0] /= 163.84; // 16Bit +/-2 Gauss to uT
-    mag[1] /= 163.84;
-    mag[2] /= 163.84;
+    mag[0] /= 163.84f; // 16Bit +/-2 Gauss to uT
+    mag[1] /= 163.84f;
+    mag[2] /= 163.84f;
 
     return true;
 }

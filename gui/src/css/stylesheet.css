@@ -4,11 +4,11 @@ QMainWindow {
 }
 
 QTableWidget {
-    /*background-color: #646464;*/
-    padding: 4px;
-    border-style: none;
-    border-bottom: 1px solid #fffff8;
-    border-right: 0px solid #fffff8;
+/*background-color: #646464;*/
+padding: 4px;
+border-style: none;
+border-bottom: 1px solid #fffff8;
+border-right: 0px solid #fffff8;
 }
 
 QSlider::groove:horizontal {

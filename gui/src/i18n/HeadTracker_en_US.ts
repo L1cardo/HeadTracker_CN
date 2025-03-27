@@ -365,7 +365,7 @@
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="261"/>
-        <source>Bluetooth Mode (0-Off, 1- Head, 2-Receive, 3-Scanner, BT_HID_Joystick)</source>
+        <source>Bluetooth Mode (-1=Uninit, 0-Disable, 1-Head, 2-Receive, 3-Scanner, 4-Gamepad)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -426,92 +426,92 @@
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="274"/>
-        <source>Raw Sensor Mag X</source>
+        <source>Raw Sensor Mag X(uT)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="275"/>
-        <source>Raw Sensor Mag Y</source>
+        <source>Raw Sensor Mag Y(uT)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="276"/>
-        <source>Raw Sensor Mag Z</source>
+        <source>Raw Sensor Mag Z(uT)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="277"/>
-        <source>Raw Sensor Gyro X</source>
+        <source>Raw Sensor Gyro X(dps)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="278"/>
-        <source>Raw Sensor Gyro Y</source>
+        <source>Raw Sensor Gyro Y(dps)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="279"/>
-        <source>Raw Sensor Gyro Z</source>
+        <source>Raw Sensor Gyro Z(dps)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="280"/>
-        <source>Raw Sensor Accel X</source>
+        <source>Raw Sensor Accel X(g)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="281"/>
-        <source>Raw Sensor Accel Y</source>
+        <source>Raw Sensor Accel Y(g)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="282"/>
-        <source>Raw Sensor Accel Z</source>
+        <source>Raw Sensor Accel Z(g)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="283"/>
-        <source>Calibrated Mag X</source>
+        <source>Calibrated Mag X(uT)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="284"/>
-        <source>Calibrated Mag Y</source>
+        <source>Calibrated Mag Y(uT)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="285"/>
-        <source>Calibrated Mag Z</source>
+        <source>Calibrated Mag Z(uT)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="286"/>
-        <source>Calibrated Gyro X</source>
+        <source>Calibrated Gyro X(dps)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="287"/>
-        <source>Calibrated Gyro Y</source>
+        <source>Calibrated Gyro Y(dps)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="288"/>
-        <source>Calibrated Gyro Z</source>
+        <source>Calibrated Gyro Z(dps)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="289"/>
-        <source>Calibrated Accel X</source>
+        <source>Calibrated Accel X(g)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="290"/>
-        <source>Calibrated Accel Y</source>
+        <source>Calibrated Accel Y(g)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basetrackersettings.h" line="291"/>
-        <source>Calibrated Accel Z</source>
+        <source>Calibrated Accel Z(g)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2782,7 +2782,7 @@ Please check COM port or flash proper code</source>
         <location filename="../mainwindow.cpp" line="1114"/>
         <source>Was unable to determine the board type
 
-Have you written the firmware to the board yet?</source>
+Have you written firmware to the board yet?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

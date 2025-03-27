@@ -17,6 +17,7 @@
 
 #include "trackersettings.h"
 
+#include <zephyr/logging/log.h>
 #include <math.h>
 #include <stdio.h>
 #include <string.h>
@@ -24,9 +25,11 @@
 #include "SBUS/sbus.h"
 #include "base64.h"
 #include "io.h"
-#include "log.h"
+
 #include "sense.h"
 #include "soc_flash.h"
+
+LOG_MODULE_REGISTER(trackersettings);
 
 void TrackerSettings::setRollReversed(bool value)
 {
@@ -60,53 +63,21 @@ bool TrackerSettings::isPanReversed() { return (servoreverse & PAN_REVERSE_BIT);
 
 void TrackerSettings::resetFusion() { reset_fusion(); }
 
-void TrackerSettings::pinsChanged()
-{
-  enum { PIN_PPMIN, PIN_PPMOUT, PIN_BUTRESET, PIN_SBUSIN1, PIN_SBUSIN2 };
-  int pins[5]{-1, -1, -1, -1, -1};
-  pins[PIN_PPMOUT] = getPpmOutPin();
-  pins[PIN_PPMIN] = getPpmInPin();
-  pins[PIN_BUTRESET] = getButtonPin();
-  if (!getSbInInv()) {
-    pins[PIN_SBUSIN1] = 5;
-    pins[PIN_SBUSIN2] = 6;
-  }
-
-  // Loop through all possibilites checking for duplicates
-  bool duplicates = false;
-  for (int i = 0; i < 4; i++) {
-    for (int y = i + 1; y < 5; y++) {
-      if (pins[i] > 0 && pins[y] > 0 && pins[i] == pins[y]) {
-        duplicates = true;
-        break;
-      }
-    }
-  }
-
-  if (!duplicates) {
-    PpmIn_setPin(-1);
-    PpmOut_setPin(-1);
-    PpmIn_setPin(getPpmInPin());
-    PpmOut_setPin(getPpmOutPin());
-  } else {
-    LOGE("Cannot pick duplicate pins. Note: SBUS in uses D5+D6 when not inverted");
-  }
-}
-
 // Saves current data to flash
 void TrackerSettings::saveToEEPROM()
 {
-  char buffer[TX_RNGBUF_SIZE];
+  uint8_t buffer[TX_RNGBUF_SIZE];
 
   k_mutex_lock(&data_mutex, K_FOREVER);
+  json.clear();
   setJSONSettings(json);
   int len = serializeJson(json, buffer, TX_RNGBUF_SIZE);
   k_mutex_unlock(&data_mutex);
 
   if (socWriteFlash(buffer, len)) {
-    LOGE("Flash Write Failed");
+    LOG_ERR("Flash Write Failed size(%d)", len);
   } else {
-    LOGI("Saved to Flash");
+    LOG_INF("Saved to Flash size(%d)", len);
   }
 }
 
@@ -118,15 +89,21 @@ void TrackerSettings::loadFromEEPROM()
   DeserializationError de;
 
   k_mutex_lock(&data_mutex, K_FOREVER);
-  de = deserializeJson(json, get_flashSpace());
+  const uint8_t *memptr = socGetMMFlashPtr();
+  if(memptr == NULL) {
+    LOG_ERR("Unable to get flash memory pointer");
+    k_mutex_unlock(&data_mutex);
+    return;
+  }
+  de = deserializeJson(json, memptr);
 
-  if (de != DeserializationError::Ok) LOGE("Invalid JSON Data");
+  if (de != DeserializationError::Ok) LOG_ERR("Invalid JSON Data");
 
   if (json["UUID"] == 837727) {
-    LOGI("Device has been freshly programmed, no data found");
+    LOG_INF("Device has been freshly programmed, no data found");
 
   } else {
-    LOGI("Loading settings from flash");
+    LOG_INF("Loading settings from flash");
     loadJSONSettings(json);
   }
   k_mutex_unlock(&data_mutex);
