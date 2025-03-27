@@ -42,7 +42,6 @@ jobs:
           aqtversion: '==3.1.*'
           version: '6.4.1'
           modules: 'qtserialport'
-          setup-python: false
 
       - name: Generate Icons
         working-directory: ${{github.workspace}}
@@ -78,4 +77,4 @@ jobs:
         with:
           name: HeadTracker_macOS
           path: ${{github.workspace}}/output/dmg
-          retention-days: 60
+          retention-days: 90
